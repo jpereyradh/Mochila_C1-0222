@@ -1,6 +1,8 @@
 <html>
     <head><title>Home</title></head>
-    <body></body>
+    <body>
+    <h3>Bienvenidos a la mochila</h3>
+    </body>
 
 
 </html>
