@@ -1,31 +1,19 @@
 <html>
     <head><title>Home</title></head>
-<<<<<<< HEAD
+
     <body>
     <h1>Camada 1</h1>
-=======
-<<<<<<< HEAD
-    <body>
-        <h1>Modificar archivo</h1>
+    <h2>Modificar archivo</h2>
         
-    </bod>
-=======
-<<<<<<< HEAD
-    <body> Hola soy un body</body>
-=======
->>>>>>> 32abe8fec55920e61c2933e27d0ffa6a94f2ddc0
->>>>>>> 1be1a6c07c98d84fec671f5b2cefdb9f7c8531e1
+    <h3>Hola soy un body</h3>
 
-    <body>Al fin viernes!
+
+    <h4>Al fin viernes!</h4>
     Por fin finde
     Es un quilombo pushear todos juntos....!!
-    </body>
-
->>>>>>> 6f0b4705d1f091fe926919d32b64f3d18d037b35
-        <h3>Bienvenidos a la mochila</h3>
-        Al fin viernes! y finde largo :P
+    <h3>Bienvenidos a la mochila</h3>
+    Al fin viernes! y finde largo :P
         <h4> texto ejemplo </h4>
-        </body>
 
     <h3>Hola somos de la Comisión 1>/h3>
     

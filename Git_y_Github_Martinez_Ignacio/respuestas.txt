@@ -1,0 +1,3 @@
+A) Fue creado por Linus Torvalds. Sus objetivos incluyen la velocidad, la integridad de los datos y la compatibilidad con flujos de trabajo no lineales distribuidos
+B) Github es de Microsoft
+C) Si, se pueden subir archivos desde la pagina web.
