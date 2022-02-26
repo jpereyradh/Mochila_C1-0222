@@ -1,0 +1,9 @@
+A) Quien invento el sistema de control de versiones Git y por que?
+B) A quien pertenece ahora Github y por que?
+C) Hay otra forma que no sea la terminal para trabajar con GitHub?
+
+A)El creador de Git fue Linus Torvalds, porque necesitaba organizar su proyecto de creacion de linux?
+
+B)Ahora Git hub pertenece a microsoft, lo compra porque son los mas activos en la plataforma y hacerse con la comunidad de desarrollo mas nutrida del planeta.
+
+C)Si las hay, visual studio code por ejemplo
