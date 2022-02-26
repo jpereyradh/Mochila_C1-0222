@@ -1,6 +1,6 @@
 <html>
     <head><title>Home</title></head>
-    <body></body>
+    <body> Hola soy un body</body>
 
 
 </html>
