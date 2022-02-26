@@ -5,7 +5,7 @@
     Por fin finde</body>
 
         <h3>Bienvenidos a la mochila</h3>
-        Al fin viernes!
+        Al fin viernes! y finde largo :P
         </body>
 
 
