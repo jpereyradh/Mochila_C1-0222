@@ -3,6 +3,15 @@
     <body>
     <h1>Camada 1</h1>
 
+    <body>Al fin viernes!
+    Por fin finde
+    Es un quilombo pushear todos juntos....!!
+    </body>
+
+        <h3>Bienvenidos a la mochila</h3>
+        Al fin viernes! y finde largo :P
+        </body>
+
     <h3>Hola somos de la Comisión 1>/h3>
     
     <h6>Al fin viernes!</h6>
