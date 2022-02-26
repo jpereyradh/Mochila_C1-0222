@@ -1,0 +1,13 @@
+Comandos mas utilizados
+git init --> inicializa el repositorio local
+git clone --> clona el repositorio local con el remoto y trae lo que contiene
+git status --> nos da informacion necesario sobre la rama actual
+git add --> incluimos los cambios realizados en el proximo commit
+git commit -m --> guardamos los cambios, establecemos un punto de control 
+git log --> vemos los commit realizados
+git branch --> visualizamos las ramas existentes
+git branch nombre_rama --> creamos una rama
+git checkout nombre_rama --> nos posicionamos en la rama que queramos
+git push --> enviamos los cambios al repositorio remoto
+git pull --> traemos los cambios que se han realizado en el repositorio remoto y se aplican al local
+ 
