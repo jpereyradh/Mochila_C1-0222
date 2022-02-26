@@ -1,8 +1,22 @@
 <html>
     <head><title>Home</title></head>
+<<<<<<< HEAD
     <body>
+        <h1>Modificar archivo</h1>
+        
+    </bod>
+=======
+<<<<<<< HEAD
+    <body> Hola soy un body</body>
+=======
+>>>>>>> 32abe8fec55920e61c2933e27d0ffa6a94f2ddc0
+
+    <body>Al fin viernes!
+    Por fin finde</body>
+
+>>>>>>> 6f0b4705d1f091fe926919d32b64f3d18d037b35
         <h3>Bienvenidos a la mochila</h3>
-        Al fin viernes!
+        Al fin viernes! y finde largo :P
         </body>
 
 
