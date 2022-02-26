@@ -1,12 +1,9 @@
 <html>
-    <head><title>Home</title></head>
-
-    <body>Al fin viernes!
-    Por fin finde</body>
-
+    <head><title>Camada 1</title></head>
+    <body>
         <h3>Bienvenidos a la mochila</h3>
         Al fin viernes! y finde largo :P
-        </body>
-
-
+        <h4> texto ejemplo </h4>
+    </body>
+ 
 </html>
