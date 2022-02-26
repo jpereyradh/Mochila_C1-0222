@@ -1,0 +1,2 @@
+a. Git fue creado por Linus Torvalds, con el fin de llevar un registro de los cambios en los archivos de trabajo, y para coordinar aquellos que son compartidos por varias personas.
+b. 
