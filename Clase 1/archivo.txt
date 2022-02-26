@@ -1,8 +1,11 @@
 <html>
     <head><title>Home</title></head>
     <body>
-    <h3>Hola somos de la Comisión 1>/h3>
-    </body>
+    <h1>Camada 1</h1>
 
+    <h3>Hola somos de la Comisión 1>/h3>
+    
+    <h6>Al fin viernes!</h6>
+    </body>
 
 </html>
