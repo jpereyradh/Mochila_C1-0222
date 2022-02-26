@@ -1,0 +1,13 @@
+Comandos Git - Github:
+    
+    -git init: Inicializa un repositorio de git en la carpeta seleccionada
+    -git add "": Cambia el estado de los archivos a "tracked" los cuales seran tenidos en cuenta en el proximo commit.
+    -git status: Muestra el estado de los archivos "tracked".
+    -git commit -m "Descripcion": Cambia el estado de los a "stagged". Estos archivos podran ser subidos a Github.
+    -git clone "link repo": crea una copia local de un repositorio de Github.
+    -git pull: descarga todos los archivos que han sufrido modificaciones en Github.
+    -git push: sube a Github los archivos que fueron commiteados.
+    -git branch "nombre": crea una brach del repositorio.
+    -git checkout "branch": cambia a la branch seleccionada.
+    -git merge "branch": fuciona la branch seleccionada con main.
+     
