@@ -24,6 +24,7 @@
 >>>>>>> 6f0b4705d1f091fe926919d32b64f3d18d037b35
         <h3>Bienvenidos a la mochila</h3>
         Al fin viernes! y finde largo :P
+        <h4> texto ejemplo </h4>
         </body>
 
     <h3>Hola somos de la Comisión 1>/h3>
