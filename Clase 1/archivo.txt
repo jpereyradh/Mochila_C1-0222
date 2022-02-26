@@ -5,5 +5,12 @@
         
     </bod>
 
+    <body>Al fin viernes!
+    Por fin finde</body>
+
+        <h3>Bienvenidos a la mochila</h3>
+        Al fin viernes! y finde largo :P
+        </body>
+
 
 </html>
