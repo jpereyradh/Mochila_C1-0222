@@ -1,0 +1,5 @@
+1. Lo creó Linus Torvalds y fue pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+
+2. Actualmente pertenece a Microsoft por que la compró.
+
+3. Sí, la propia página.
