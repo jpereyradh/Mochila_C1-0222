@@ -6,4 +6,4 @@ b. ¿A quién pertenece actualmente Github y por qué?
     Github es una plataforma de desarrollo colaborativo que permite a los usuarios compartir código y documentos.
 
 c. ¿Hay otra forma que no sea la terminal para trabajar con Github?
-    No hay otra forma que no sea la terminal para trabajar con Github.
+    Se puede trabajar desde la web.
