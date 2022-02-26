@@ -1,7 +1,12 @@
 <html>
     <head><title>Home</title></head>
+
     <body>Al fin viernes!
     Por fin finde</body>
+
+        <h3>Bienvenidos a la mochila</h3>
+        Al fin viernes!
+        </body>
 
 
 </html>
