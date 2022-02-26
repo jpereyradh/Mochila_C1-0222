@@ -1,6 +1,10 @@
 <html>
     <head><title>Home</title></head>
     <body> Hola soy un body</body>
+    <body>
+        <h3>Bienvenidos a la mochila</h3>
+        Al fin viernes!
+        </body>
 
 
 </html>
