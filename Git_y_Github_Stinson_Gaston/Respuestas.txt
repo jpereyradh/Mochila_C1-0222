@@ -1,0 +1,7 @@
+1: Git fue inventado por Linus Torvalds en 2005. Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar 
+el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.
+
+2: GitHub fue adquirido por el gigante de la tecnologia Microsoft en 2018. La empresa asegura que GitHub mantendrá su distintivo enfoque de anteponer a los desarrolladores
+ y seguirá operando de forma independiente para ofrecer una plataforma abierta a todos los desarrolladores e industrias.
+
+3: Se puede trabajar tambien con GitHub desktop.
