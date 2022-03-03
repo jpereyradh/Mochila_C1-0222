@@ -1,23 +1,8 @@
 <html>
-    <head><title>Home</title></head>
-
+    <head><title>Camada 1</title></head>
     <body>
-    <h1>Camada 1</h1>
-    <h2>Modificar archivo</h2>
-        
-    <h3>Hola soy un body</h3>
-
-
-    <h4>Al fin viernes!</h4>
-    Por fin finde
-    Es un quilombo pushear todos juntos....!!
-    <h3>Bienvenidos a la mochila</h3>
-    Al fin viernes! y finde largo :P
-        <h4> texto ejemplo </h4>
-
-    <h3>Hola somos de la Comisión 1>/h3>
-    
-    <h6>Al fin viernes!</h6>
+        <h3>Bienvenidos a la mochila</h3>
+        <h2>Al fin viernes!</h2>
     </body>
-
+ 
 </html>
