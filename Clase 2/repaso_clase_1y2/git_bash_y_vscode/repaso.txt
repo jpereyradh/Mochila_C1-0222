@@ -1,0 +1,2 @@
+Git Bash es una app de entorno para Microsoft Windows que emula la linea de comando de Git. 
+VSC es un editor de codigo desarrollado por Microsoft para Windows, Mac,linux, macOS y Web.
