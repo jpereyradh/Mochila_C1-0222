@@ -1,0 +1,13 @@
+1- La carpeta db no fue agregada a la main branch ya que no
+contenia ningun archivo para commit.
+
+2-No se guardo ningun archivo ya que no se utilizo "git add"
+
+3- Deberia ser mas especifico en lo que considera como
+importante.
+
+4-Restauro el archivo producto_db.js.
+
+5-No se commiteo ningun archivo ya que el comando "git add ."
+fue hecho dentro de la carpeta db por lo que los cambios en
+la carpeta Ecommerce no fueron agregados.
