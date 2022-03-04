@@ -1,0 +1,5 @@
+1- Linus Torvalds fue quien invento el sistema de control de version de git. ayudar en el desarrollo de cualquier tipo de aplicación
+ manteniendo una gran cantidad de código de un gran número de programadores diferentes.
+2- A quien pertenece actualmente GitHub es a Microsoft
+3- microsoft compro GitHub ya que  asegura que GitHub mantendrá su distintivo enfoque de anteponer a los desarrolladores y seguirá operando de forma
+ independiente para ofrecer una plataforma abierta a todos los desarrolladores e industrias.
