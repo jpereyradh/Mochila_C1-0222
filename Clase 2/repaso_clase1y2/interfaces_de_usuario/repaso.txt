@@ -1,0 +1,4 @@
+Dentro de las interfaces de usuario tenemos:
+    - Interfaz de línea de comandos: el cual es un programa que está en todos los sistemas operativos, y sirve para comunicarnos con el dispositivo mediante instrucciones con comandos.
+    - Interfaz gráfica de usuario: permite al usuario interactuar con programas de forma más amigable, intuitiva. Esta requiere de más memoria para ejecutar los componentes gráficos, es más lenta, poco flexible y de menor presición.
+    - Interfaz nativa de usuario: Pueden ser táctiles, pueden funcionar mediante reconocimiento del habla, por ejemplo Siri; o mediante movimientos corporales, como es el caso de Kinect.
