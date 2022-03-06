@@ -1,0 +1,133 @@
+Script started on 2022-03-06 16:45:06-03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2[00m$ mkdor[K[Kir Pelici[Kulas
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2[00m$ cd Peliculas/
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ mkdir Infantiles Accoi[K[Kion Terror Come dia P[KRomantia[Kcas
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ touch Infantiles/Intenzamente.txt I nfantiles/ El[K[K""E"l" "j"u"e"g"o" "d"e"l" "m"i"e"d"o"[C.xls Infantiles/""R"a"p"i"d"o" "y" "f"u"r"i"o"s"o"[C.pdf Infantiles/Titanic.jpg
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ tree
+[01;34m.[00m
+├── [01;34mAccion[00m
+├── [01;34mComedia[00m
+├── El juego del miedo.xls
+├── [01;34mInfantiles[00m
+│   ├── Intenzamente.txt
+│   ├── Rapido y furioso.pdf
+│   └── [01;35mTitanic.jpg[00m
+├── [01;34mRomanticas[00m
+└── [01;34mTerror[00m
+
+5 directories, 4 files
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ mv El\ juego\ del\ miedo.xls Infantiles/##[K[K""E"l" "j"u"e"g"o" "d"e"l" "m"i"e"d"o"[C.xls
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ tree
+[01;34m.[00m
+├── [01;34mAccion[00m
+├── [01;34mComedia[00m
+├── [01;34mInfantiles[00m
+│   ├── El juego del miedo.xls
+│   ├── Intenzamente.txt
+│   ├── Rapido y furioso.pdf
+│   └── [01;35mTitanic.jpg[00m
+├── [01;34mRomanticas[00m
+└── [01;34mTerror[00m
+
+5 directories, 4 files
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ touch Accion/""S"m"o"o"r"h" "[1P"[1P"[1P"t"h" "c"r"i"m"i"n"a"l"[C.txt  Accion/Diario[K[K[K[K[K[K""D"i"a"r"i"o" "d"e" "u"n"a" "p"a"s"o"i"[1P"[1P"i"o"n"[C-[K.js Accion/""E"l" "h"e"x"o"r"s"i"s"t"a"[C.xls Accion/Cars.jpg
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ tree
+[01;34m.[00m
+├── [01;34mAccion[00m
+│   ├── [01;35mCars.jpg[00m
+│   ├── Diario de una pasion.js
+│   ├── El hexorsista.xls
+│   └── Smooth criminal.txt
+├── [01;34mComedia[00m
+├── [01;34mInfantiles[00m
+│   ├── El juego del miedo.xls
+│   ├── Intenzamente.txt
+│   ├── Rapido y furioso.pdf
+│   └── [01;35mTitanic.jpg[00m
+├── [01;34mRomanticas[00m
+└── [01;34mTerror[00m
+
+5 directories, 8 files
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ touch Comq[Kedia/Madagaskar.js Comedia/""O"r"g"u"l"l"o" "y" "p"r"e"j"u"i"c"i"o"[C.txt Comq[Kedia/IT.xls Comedia/"Mision Imposible".pgn[K[Kng
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ tree
+[01;34m.[00m
+├── [01;34mAccion[00m
+│   ├── [01;35mCars.jpg[00m
+│   ├── Diario de una pasion.js
+│   ├── El hexorsista.xls
+│   └── Smooth criminal.txt
+├── [01;34mComedia[00m
+│   ├── IT.xls
+│   ├── Madagaskar.js
+│   ├── [01;35mMision Imposible.png[00m
+│   └── Orgullo y prejuicio.txt
+├── [01;34mInfantiles[00m
+│   ├── El juego del miedo.xls
+│   ├── Intenzamente.txt
+│   ├── Rapido y furioso.pdf
+│   └── [01;35mTitanic.jpg[00m
+├── [01;34mRomanticas[00m
+└── [01;34mTerror[00m
+
+5 directories, 12 files
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ touch Tom[K[K[Kro[K[KRomanticas/O[KPocahontas.jpg ROm [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[KRomanticas/Annabele.js Romanticas/L[K""L"o"s" "V"[1P"v"e"n"g"a"d"o"r"e"s"[C.js Romanticas/La[K[K""L"a" "M"a"s"c"a"r"a"[C.js
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ tree
+[01;34m.[00m
+├── [01;34mAccion[00m
+│   ├── [01;35mCars.jpg[00m
+│   ├── Diario de una pasion.js
+│   ├── El hexorsista.xls
+│   └── Smooth criminal.txt
+├── [01;34mComedia[00m
+│   ├── IT.xls
+│   ├── Madagaskar.js
+│   ├── [01;35mMision Imposible.png[00m
+│   └── Orgullo y prejuicio.txt
+├── [01;34mInfantiles[00m
+│   ├── El juego del miedo.xls
+│   ├── Intenzamente.txt
+│   ├── Rapido y furioso.pdf
+│   └── [01;35mTitanic.jpg[00m
+├── [01;34mRomanticas[00m
+│   ├── Annabele.js
+│   ├── La Mascara.js
+│   ├── Los vengadores.js
+│   └── [01;35mPocahontas.jpg[00m
+└── [01;34mTerror[00m
+
+5 directories, 16 files
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ touh[Kch Terror/QQ[K[KPP[K[K""L"a" "d"a"m"a" "y" "e"l" "b"a"g"a"v"u"n" [A]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd"o"[C.png Terror/""Y"o" "a"n"t"e"s" "d"e" "t"u"[1P"i"[C.xls Terror/"que[K[K[KQue paso ayer".pdf Terror/""W"e" "w"i"l"l" "r" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co"c"h"[1P"k" "y"o"u"[C.js
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ tree
+[01;34m.[00m
+├── [01;34mAccion[00m
+│   ├── [01;35mCars.jpg[00m
+│   ├── Diario de una pasion.js
+│   ├── El hexorsista.xls
+│   └── Smooth criminal.txt
+├── [01;34mComedia[00m
+│   ├── IT.xls
+│   ├── Madagaskar.js
+│   ├── [01;35mMision Imposible.png[00m
+│   └── Orgullo y prejuicio.txt
+├── [01;34mInfantiles[00m
+│   ├── El juego del miedo.xls
+│   ├── Intenzamente.txt
+│   ├── Rapido y furioso.pdf
+│   └── [01;35mTitanic.jpg[00m
+├── [01;34mRomanticas[00m
+│   ├── Annabele.js
+│   ├── La Mascara.js
+│   ├── Los vengadores.js
+│   └── [01;35mPocahontas.jpg[00m
+└── [01;34mTerror[00m
+    ├── [01;35mLa dama y el bagavundo.png[00m
+    ├── Que paso ayer.pdf
+    ├── We will rock you.js
+    └── Yo antes de ti.xls
+
+5 directories, 20 files
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/Peliculas[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/Peliculas[00m$ exit
+exit
+
+Script done on 2022-03-06 16:55:05-03:00 [COMMAND_EXIT_CODE="0"]

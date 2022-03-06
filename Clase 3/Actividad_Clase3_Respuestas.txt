@@ -1,0 +1,5 @@
+9) 
+- Sí se puede, el comando se encuentra en el archivo adjunto.
+- Sí se puede, el comando se encuentra en el archivo adjunto.
+- $ mkdir Romanticas/Prueba
+- $ mkdir home/ric/Desktop/DH/Peliculas/Accion/Prueba2 
