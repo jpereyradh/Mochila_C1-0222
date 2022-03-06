@@ -1,0 +1,141 @@
+Fede@DESKTOP-SHHSD54 MINGW64 ~
+$ mkdir DH
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~
+$ cd DH
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ mkdir historia_de_la_contabilidad que_haremos_hoy servidores interfaces_de_usuario infraestructura
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ ls
+historia_de_la_contabilidad/  interfaces_de_usuario/  servidores/
+infraestructura/              que_haremos_hoy/
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ cd historia_de_la_contabilidad
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/historia_de_la_contabilidad
+$ touch repaso
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/historia_de_la_contabilidad
+$ rmv repaso
+bash: rmv: command not found
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/historia_de_la_contabilidad
+$ rm repaso
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/historia_de_la_contabilidad
+$ ls
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/historia_de_la_contabilidad
+$ touch repaso.txt
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/historia_de_la_contabilidad
+$ ../
+bash: ../: Is a directory
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/historia_de_la_contabilidad
+$ cd ../
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ cd servidores
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/servidores
+$ touch repaso.txt
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/servidores
+$ cd ../
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ cd interfaces*
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/interfaces_de_usuario
+$ touch repaso.txt
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/interfaces_de_usuario
+$ cd ../
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ cd que*
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/que_haremos_hoy
+$ touch repaso.txt
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/que_haremos_hoy
+$ ../
+bash: ../: Is a directory
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/que_haremos_hoy
+$ cd ../
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ cd infr*
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/infraestructura
+$ touch repaso.txt
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/infraestructura
+$ cd ../
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ ls -r
+servidores/       interfaces_de_usuario/  historia_de_la_contabilidad/
+que_haremos_hoy/  infraestructura/
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ pwd
+/c/Users/Fede
+
+
+
+SEGUNDA PARTE
+
+
+
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~
+$ cd DH
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ mv /DH historia_de_la_contabilidad historia_de_la_informatica
+mv: target 'historia_de_la_informatica' is not a directory
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ /DH historia_de_la_contabilidad /DH historia_de_la_informatica
+bash: /DH: No such file or directory
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ mv historia_de_la_contabilidad historia_de_la_informatica
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ mv que_haremos_hoy software_y_hardware
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ mv infraestructura git_bash_y_vscode
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ ls
+git_bash_y_vscode/  historia_de_la_informatica/  interfaces_de_usuario/  servidores/  software_y_hardware/
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ nano git_bash_y_vscode
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ nano historia_de_la_informatica
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ cd historia_de_la_informatica
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/historia_de_la_informatica
+$ nano repaso.txt
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/historia_de_la_informatica
+$ cd ../
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH
+$ cd soft*
+
+Fede@DESKTOP-SHHSD54 MINGW64 ~/DH/software_y_hardware
+$ nano repaso.txt
+
