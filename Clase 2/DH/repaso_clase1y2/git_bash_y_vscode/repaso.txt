@@ -1,0 +1,1 @@
+Git Bash es una aplicación para Microsoft Windows que sirve para ejecutar líneas de comandos de Git. VSCode es un editor de código fuente desarrollado por Microsoft para Windows , Linux y macOS.

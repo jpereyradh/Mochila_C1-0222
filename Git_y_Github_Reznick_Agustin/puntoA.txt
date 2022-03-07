@@ -1,0 +1,1 @@
+A)El creador de Git fue Linus Torvalds, que lo inventó para poder organizar su proyecto de creacion de linux con mayor facilidad.
