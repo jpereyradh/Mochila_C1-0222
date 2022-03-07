@@ -1,0 +1,5 @@
+1-  El directorio db quedó creado en la rama main, ya que todo lo encontrado dentro de la carpeta ecommerce fue commiteado.
+2-  No se guardó ya que no se ejecutó el comando "add ." antes.
+3-  No está bien ya que debe ser más concreto y específico con lo que se realizó.
+4-  $ git restore sirve para añadir nuevamente lo que se había eliminado.
+5-  Está guardando las modificaciones realizadas anteriormente. En este caso sacando la configuración, haciendo referencia a que se eliminó el archivo "config.js"

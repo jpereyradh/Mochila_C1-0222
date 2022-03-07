@@ -1,0 +1,12 @@
+-   a- Si, se puede con el comando mkdir, nombrando luego todas las carpetas separadas por un espacio.
+-   b- El comando es: touch.
+-   c- $mkdir ./peliculas/romanticas/prueba
+-   d- $mkdir ../peliculas/accion/prueba2
+
+$ rm ./peliculas/romanticas/"we will rock you.js"
+$ touch ./peliculas/accion/prueba2/noBorrar.js
+$ mv ./peliculas/accion/prueba2/noBorrar.js ./peliculas/romanticas/prueba/
+$ touch camadax.txt
+$ mv ./terror/it.xls ./infantiles
+$ rm ../camadax.txt
+$ rm -r ./romanticas/prueba

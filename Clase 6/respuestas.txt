@@ -1,0 +1,4 @@
+a. Git fue creado por Linus Torvalds, con el fin de llevar un registro de los cambios en los archivos de trabajo, y para coordinar aquellos que son compartidos por varias personas.
+b. Actualmente Github pertenece a Microsoft, que lo adquirió en el año 2018. Según Microsoft, con esta adquisición ambas empresas permitirán a los desarrolladores disponer de nuevas herramientas en cada etapa de creación de un programa, lo que permitirá ofrecer nuevos servicios a los usuarios.
+c. Se puede trabajar directamente desde Github, creando un repositorio allí, creando nuevas ramas, y realizando los commits necesarios.
+
