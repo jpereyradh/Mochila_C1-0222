@@ -1,0 +1,1 @@
+Git bash es una terminal de linea de comandos que junto con el vscode nos permite crear, mover y copiar directorios.

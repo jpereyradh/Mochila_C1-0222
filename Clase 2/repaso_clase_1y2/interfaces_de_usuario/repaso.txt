@@ -1,0 +1,1 @@
+Las interfaces de usuario son tres: la terminal CLI, la gráfica GUI y la nativa

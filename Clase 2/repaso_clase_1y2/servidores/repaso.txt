@@ -1,0 +1,1 @@
+Existe la arquitectura cliente-servidors para la comunicación entre dispositivos y servidores de la web
