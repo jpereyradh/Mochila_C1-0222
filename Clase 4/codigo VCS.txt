@@ -1,0 +1,137 @@
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4
+$ mkdir ecommerce
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4
+$ cd ecommerce
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce
+$
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce
+$ touch app.js
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce
+$ mkdir db
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce
+$ got init
+bash: got: command not found
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce
+$ git init
+Initialized empty Git repository in C:/Users/Magi0/Desktop/clase 4/ecommerce/.git/
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$  git add .
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ git commit -m "primer commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Magi0@DESKTOP-KSQRD8O.(none)')
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ git config user.name Magi0o
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ git config user.email hector.a.tapia@gmail.com
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ git commit -m "primer commit"
+[main (root-commit) e2432b2] primer commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 app.js
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ cd db/
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$ touch producto_db.js
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$ touch carrito_db.js
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$ cd ..
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ nano app.js
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ git commit -m "guardando lo importante"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)       
+        modified:   app.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        db/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ git aadd .
+git: 'aadd' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ git add .
+warning: LF will be replaced by CRLF in app.js.
+The file will have its original line endings in your working directory        
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ git commit -m "guardando una parte del proyecto"
+[main eaf7725] guardando una parte del proyecto
+ 3 files changed, 1 insertion(+)
+ create mode 100644 db/carrito_db.js
+ create mode 100644 db/producto_db.js
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ ls
+app.js  db/
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce (main)
+$ cd db
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$ ^C
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$ rm producto_db.js
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$ git restore .
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$ rm ../config.js
+rm: cannot remove '../config.js': No such file or directory
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$ git add .
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$  git commit -m ""sacando la configuracion
+error: pathspec 'la' did not match any file(s) known to git
+error: pathspec 'configuracion' did not match any file(s) known to git
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$  git commit -m "sacando la configuracion"
+On branch main
+nothing to commit, working tree clean
+
+Magi0@DESKTOP-KSQRD8O MINGW64 ~/Desktop/clase 4/ecommerce/db (main)
+$

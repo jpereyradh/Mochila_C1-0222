@@ -1,0 +1,43 @@
+crear
+Clonar un repositorio existente
+$ git clone ssh://usuario@domain.com/repo.git
+Crear un nuevo repositorio local
+$ git init
+crear una carpeta o directorio
+$ git mkdir
+crear un archivo
+$ touch
+
+Lo usas para crear un cambio que se guardará en el directorio git.
+$ git commit 
+Lo usas para establecer una configuración específica de usuario, podría ser el email, usuario o tipo de formato.
+$ git config 
+Lo usas para que muestre la lista de archivos que has cambiado, junto con archivos que serán preparados y confirmados.
+$ git status 
+Lo usas para enviar confirmaciones a la rama maestra/principal del repositorio remoto.
+$ git push 
+Nos permite ver todos los repositorios remotos.
+$git remote 
+Nos permite crear ramas y navegar entre ellas.
+$git checkout 
+Lo usas para fusionar todos los cambios que hiciste en el repositorio local con el directorio de trabajo local.
+$git pull 
+
+Navegación entre carpetas
+Cambia de carpeta
+$ cd 
+
+copiar/mover/renombrar
+$ mv renombrar archivos y carpetas mover conbtendo
+
+mostrar
+lista de archivos en la carpeta
+$ ls
+muestra archivos ocultos
+$ ls -a
+
+eliminar
+elimana archivos
+$rm
+elimina carpetas
+$ rmdir

@@ -1,0 +1,5 @@
+1-no fue commiteado al estar vacio
+2-no se guardo porque falto el git add .
+3-no, se commitearon 3 archivos nuevos
+4- recupera lo que eliminamos anteriormente
+5- no commiteo nada porque no hay nada nuevo para modificar
