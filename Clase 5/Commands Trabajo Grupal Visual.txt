@@ -1,0 +1,453 @@
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu (main)
+$ cd clase5manu_y_fer/
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git add .
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git commit -m "Subo comidas"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean        
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git push origin main
+Everything up-to-date
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git add .
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   brownies
+        new file:   lemonpie
+        new file:   selva negra
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    brownies
+        deleted:    lemonpie
+        deleted:    selva negra
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        brownies.txt
+        lemonpie.txt
+        selva negra.txt
+
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git add .
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git commit -m "Subo comidas"
+[main 3af0df0] Subo comidas
+ 3 files changed, 3 insertions(+)
+ create mode 100644 brownies.txt
+ create mode 100644 lemonpie.txt
+ create mode 100644 selva negra.txt
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 425 bytes | 425.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ferpmdev/clase5manu_y_fer.git
+   4b985d7..3af0df0  main -> main
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git pull
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 8 (delta 1), reused 8 (delta 1), pack-reused 0
+Unpacking objects: 100% (8/8), 1.07 KiB | 3.00 KiB/s, done.
+From https://github.com/ferpmdev/clase5manu_y_fer
+   3af0df0..354adfe  main       -> origin/main
+Updating 3af0df0..354adfe
+Fast-forward
+ .DS_Store    | Bin 0 -> 6148 bytes
+ bodoni.pdf   |   1 +
+ futura.js    |   1 +
+ garamond.txt |   2 ++
+ 4 files changed, 4 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 bodoni.pdf
+ create mode 100644 futura.js
+ create mode 100644 garamond.txt
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git pull
+Already up to date.
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 5 (delta 1), reused 5 (delta 1), pack-reused 0
+Unpacking objects: 100% (5/5), 453 bytes | 2.00 KiB/s, done.
+From https://github.com/ferpmdev/clase5manu_y_fer
+   354adfe..9ebc3f4  main       -> origin/main
+error: Your local changes to the following files would be overwritten by merge:
+        bodoni.pdf
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 354adfe..9ebc3f4
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git pull
+error: Your local changes to the following files would be overwritten by merge:
+        bodoni.pdf
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 354adfe..9ebc3f4
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git merge
+error: Your local changes to the following files would be overwritten by merge:
+        bodoni.pdf
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 354adfe..9ebc3f4
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git status
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bodoni.pdf
+        modified:   brownies.txt
+        modified:   lemonpie.txt
+        modified:   selva negra.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git add .
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git commit m- "Addie cosas"
+error: pathspec 'm-' did not match any file(s) known to git
+error: pathspec 'Addie cosas' did not match any file(s) known to git
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git commit -m "Addie cosas"
+[main c8c4e74] Addie cosas
+ 4 files changed, 5 insertions(+), 4 deletions(-)
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git push origin main
+To https://github.com/ferpmdev/clase5manu_y_fer.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ferpmdev/clase5manu_y_fer.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git pull
+Auto-merging bodoni.pdf
+CONFLICT (content): Merge conflict in bodoni.pdf
+Automatic merge failed; fix conflicts and then commit the result.
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main|MERGING)
+$ git push origin main
+To https://github.com/ferpmdev/clase5manu_y_fer.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/ferpmdev/clase5manu_y_fer.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main|MERGING)
+$ git pull
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main|MERGING)
+$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        modified:   futura.js
+        modified:   garamond.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   bodoni.pdf
+
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main|MERGING)
+$ git aadd .
+git: 'aadd' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main|MERGING)
+$ git add .
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main|MERGING)
+$ git sttus
+git: 'sttus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main|MERGING)
+$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   bodoni.pdf
+        modified:   futura.js
+        modified:   garamond.txt
+
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main|MERGING)
+$ git commit -m "Arreglo error"
+[main 02d591d] Arreglo error
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git push
+Enumerating objects: 18, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 760 bytes | 760.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/ferpmdev/clase5manu_y_fer.git
+   9ebc3f4..02d591d  main -> main
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git add .
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git commit -m "Agrego ingredientes para la masa"
+[main bd0905e] Agrego ingredientes para la masa
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 405 bytes | 405.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ferpmdev/clase5manu_y_fer.git
+   02d591d..bd0905e  main -> main
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git pull
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 3), reused 6 (delta 3), pack-reused 0
+Unpacking objects: 100% (6/6), 760 bytes | 3.00 KiB/s, done.
+From https://github.com/ferpmdev/clase5manu_y_fer
+   bd0905e..43fbfe7  main       -> origin/main
+Updating bd0905e..43fbfe7
+Fast-forward
+ lemonpie.txt | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git sttus
+git: 'sttus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   lemonpie.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git dd .
+git: 'dd' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git add .
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git commit -m "merge"
+[main 4c211fa] merge
+ 1 file changed, 3 deletions(-)
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 284 bytes | 284.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/ferpmdev/clase5manu_y_fer.git
+   43fbfe7..4c211fa  main -> main
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git add .
+warning: LF will be replaced by CRLF in Manu/Proyecto HTML/root/img/Front.svg.
+The file will have its original line endings in your working directory
+n)
+$ git push
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 98.61 KiB | 19.72 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ferpmdev/clase5manu_y_fer.git
+   4c211fa..be12a95  main -> main
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), 472 bytes | 4.00 KiB/s, done.
+From https://github.com/ferpmdev/clase5manu_y_fer
+   be12a95..f336c09  main       -> origin/main
+Updating be12a95..f336c09
+Fast-forward
+ style.css | 36 ++++++++++++++++++++++++++++++++++++
+ 1 file changed, 36 insertions(+)
+ create mode 100644 style.css
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git brach Alvez_Manuel
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git branch Alvez_Manuel
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (main)
+$ git checkout Alvez_Manuel
+Switched to branch 'Alvez_Manuel'
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (Alvez_Manuel)
+$ git add .
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (Alvez_Manuel)
+$ git commit -m "Encontra l modif jorgito"
+[Alvez_Manuel 3b2b334] Encontra l modif jorgito
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (Alvez_Manuel)
+$ git push origin Alvez_Manuel
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 328 bytes | 328.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'Alvez_Manuel' on GitHub by visiting:
+remote:      https://github.com/ferpmdev/clase5manu_y_fer/pull/new/Alvez_Manuel
+remote:
+To https://github.com/ferpmdev/clase5manu_y_fer.git
+ * [new branch]      Alvez_Manuel -> Alvez_Manuel
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (Alvez_Manuel)
+$ git branch
+* Alvez_Manuel
+  main
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (Alvez_Manuel)
+$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (3/3), 294 bytes | 2.00 KiB/s, done.
+From https://github.com/ferpmdev/clase5manu_y_fer
+ * [new branch]      ferPM      -> origin/ferPM
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> Alvez_Manuel
+
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (Alvez_Manuel)
+$ git branch --set-upstream-to=origin/<branch> Alvez_Manuel
+bash: branch: No such file or directory
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (Alvez_Manuel)
+$ git branch --set-upstream-to=origin/Alvez_Manuel
+branch 'Alvez_Manuel' set up to track 'origin/Alvez_Manuel'.
+
+Seth@DESKTOP-1RB5CHB MINGW64 ~/Desktop/Fermanu/clase5manu_y_fer (Alvez_Manuel)
