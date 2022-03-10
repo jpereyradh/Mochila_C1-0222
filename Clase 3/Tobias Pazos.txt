@@ -1,0 +1,226 @@
+1) Crear en tu carpeta de DH el directorio Películas
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/onedrive/escritorio/dh
+	$ mkdir Peliculas
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/onedrive/escritorio/dh
+	$ cd peliculas
+
+2) Crear en tu carpeta Peliculas cinco directorios llamados:
+● Infantiles
+● Accion
+● Terror
+● Comedia
+● Romanticas
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/onedrive/escritorio/dh/peliculas
+	$ mkdir Infantiles Accion Terror Comedia Romanticas
+
+3) Crear en la carpeta Infantiles cuatro archivos llamados:
+❖ Intenzamente.txt
+❖ El juego del miedo.xls
+❖ Rapido y furioso.pdf
+❖ Titanic.jpg
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/onedrive/escritorio/dh/peliculas
+	$ touch infantiles/Intenzamente.txt infantiles/"El juego del miedo".xls infantiles/"Rapido y furioso".pdf infantiles/Titanic.jpg
+
+
+4) Crear en la carpeta Accion cuatro archivos llamados:
+❖ Smooth criminal.txt
+❖ Diario de una pasion.js
+❖ El hexorcista.xls
+❖ Cars.jpg
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/onedrive/escritorio/dh/peliculas
+	$ touch accion/"Smooth criminal".txt accion/"Diario de una pasion".js accion/"El hexorcista".xls accion/Cars.jpg
+
+5) Crear en la carpeta Terror cuatro archivos llamados:
+❖ La dama y el bagavundo.png
+❖ Yo antes de ti.xls
+❖ Que paso ayer.pdf
+❖ We will rock you.js
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/onedrive/escritorio/dh/peliculas
+	$ touch terror/"La dama y el bagavundo".png terror/"Yo antes de ti".xls terror/"Que paso ayer".pdf terror/"We will rock you".js
+
+6) Crear en la carpeta Comedia cuatro archivos llamados:
+❖ Madagaskar.js
+❖ Orgullo y prejuicio.txt
+❖ IT.xls
+❖ Mision imposible.png
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/onedrive/escritorio/dh/peliculas
+	$ touch comedia/Madagaskar.js comedia/"Orgullo y prejuicio".txt comedia/IT.xls comedia/"Mision imposible".png
+
+7) Crear en la carpeta Romantica cuatro archivos llamados:
+❖ Pocahontas.jpg
+❖ Annabelle.js
+❖ Los vengadores.js
+❖ La mascara.js
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/onedrive/escritorio/dh/peliculas
+	$ touch romanticas/Pocahontas.jpg romanticas/Annabelle.js romanticas/"Los vengadores".js romanticas/"La mascara".js
+
+8) Una vez realizada la actividad deberemos corroborar el resultado obtenido,
+ubicándonos en la carpeta peliculas y utilizando el comando: ls -R
+
+tobia@DESKTOP-JLV1DBR MINGW64 ~/onedrive/escritorio/dh/peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg                  'El hexorcista.xls'
+'Diario de una pasion.js'  'Smooth criminal.txt'
+
+./Comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'  'Rapido y furioso.pdf'
+ Intenzamente.txt          Titanic.jpg
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg
+
+./Terror:
+'La dama y el bagavundo.png'  'We will rock you.js'
+'Que paso ayer.pdf'           'Yo antes de ti.xls'
+
+9) Si el resultado coincide con la plantilla guía de la diapositiva anterior resolver las
+siguientes preguntas
+¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+
+	Si, seria: mkdir Infantiles Accion Terror Comedia Romanticas
+
+¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+
+	Si, seria: touch Intenzamente.txt "El juego del miedo".xls "Rapido y furioso".pdf Titanic.jpg
+
+Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de
+la carpeta Romanticas en un solo comando y escribirlo aquí.
+
+	mkdir peliculas/romanticas/Prueba
+
+Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2
+dentro de la carpeta Accion
+
+	mkdir ../accion/Prueba2
+
+Integrando en VSCode
+Mover los archivos que no correspondan a la carpeta con la categoría de
+película correspondiente.
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/accion/Cars.jpg  peliculas/infantiles/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/accion/"Diario de una pasion".js peliculas/romanticas/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/accion/"El hexorcista".xls peliculas/terror/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/comedia/IT.xls peliculas/terror/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/comedia/Madagaskar.js peliculas/infantiles/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/comedia/"Mision imposible".png peliculas/accion/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/comedia/"Orgullo y prejuicio".txt peliculas/romanticas/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/infantiles/"El juego del miedo".xls peliculas/terror
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/infantiles/"Rapido y furioso".pdf peliculas/accion/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/infantiles/Titanic.jpg peliculas/romanticas/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/romanticas/Annabelle.js peliculas/terror/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/romanticas/"La mascara".js peliculas/comedia
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/romanticas/"Los vengadores".js peliculas/accion/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/romanticas/Pocahontas.jpg peliculas/infantiles/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/terror/"La dama y el bagavundo".png peliculas/infantiles/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/terror/"Que paso ayer".pdf peliculas/comedia/
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/terror/"Yo antes de ti".xls peliculas/romanticas/
+
+Estando ubicados en la carpeta DH renombrar los archivos que están mal
+nombrados debido a faltas ortográficas.
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/accion/"rapido y furioso".pdf peliculas/accion/"Rapidos y furiosos".pdf
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/infantiles/Intenzamente.txt peliculas/infantiles/Intensamente.txt
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/infantiles/"la dama y el bagavundo".png peliculas/infantiles/"La dama y el vagabundo".png
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/infantiles/madagaskar.js peliculas/infantiles/Madagascar.js
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ mv peliculas/terror/"el hexorcista".xls peliculas/terror/"El exorcista".xls
+
+Estando ubicados en la carpeta DH remover (eliminar) los archivos que no sean
+peliculas y corresponden a canciones en un solo comando c/u.
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ rm peliculas/accion/"smooth criminal".txt
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ rm peliculas/terror/"we will rock you".js
+
+Ubicados en la carpeta DH crear el archivo noBorrar.js en la carpeta prueba2.
+En un solo comando.
+
+	touch peliculas/accion/prueba2/noBorrar.js
+
+Ubicados en la carpeta peliculas mover el archivo noBorrar.js de la carpeta
+prueba2 a la carpeta prueba. En un solo comando.
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+	$ mv accion/prueba2/noBorrar.js romanticas/prueba/noBorrar.js
+
+Ubicados en la carpeta DH crear un archivo llamado camadax.txt
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH
+	$ touch camadax.txt
+
+Ubicados en la carpeta peliculas, mover el archivo IT a la carpeta infantiles. En
+un solo comando.
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+	$ mv terror/IT.xls infantiles/IT.xls
+
+Ubicados en la carpeta peliculas eliminar el archivo camadax.txt
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+	$ rm ../camadax.txt
+
+Ubicados en la carpeta peliculas eliminar la carpeta prueba. En un solo
+comando.
+
+	tobia@DESKTOP-JLV1DBR MINGW64 ~/OneDrive/Escritorio/DH/peliculas
+	$ rm -R romanticas/prueba/
