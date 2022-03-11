@@ -1,0 +1,33 @@
+Crear nuevo repositorio local
+    git init
+
+Clonar un repositorio
+    git clone
+
+Nos da toda la informacion necesaria sobre la rama actual
+    git status
+
+Agregar archivos al area de preparación
+    git add
+
+Crear un cambio que se guardara en el directorio git
+    git commit
+
+Establecer una configuracion de la cuenta
+    git config --global user.name "nombre"
+    git config --global user.email "
+
+Enviar un commit a un repositorio remoto
+    git push
+
+Ver todos los commits
+    git log
+
+Ver todos los repositorios remotos
+    git remote -v
+
+Nos permite crear ramas
+    git checkout
+
+Fusionar todos los cambios que hiciste en el repositorio local
+    git pull
