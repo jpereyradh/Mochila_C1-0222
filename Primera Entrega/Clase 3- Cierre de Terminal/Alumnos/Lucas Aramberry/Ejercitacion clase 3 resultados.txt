@@ -1,0 +1,186 @@
+				GIT BASH
+
+8) Una vez realizada la actividad deberemos corroborar el resultado obtenido,
+ubicándonos en la carpeta peliculas y utilizando el comando: ls -R
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH/Peliculas
+$ ls -R
+.:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Accion:
+ Cars.jpg  'Diario de una pasion.js'  'El hexorsista.xls'   Prueba2/  'Smooth criminal.txt'
+
+./Accion/Prueba2:
+
+./Comedia:
+ IT.xls   Madagaskar.js  'Mision imposible.png'  'Orgullo y prejuicio.txt'
+
+./Infantiles:
+'El juego del miedo.xls'   Intenzamente.txt  'Rapido y furioso.pdf'   Titanic.jpg
+
+./Romanticas:
+ Annabelle.js  'La mascara.js'  'Los vengadores.js'   Pocahontas.jpg   Prueba/
+
+./Romanticas/Prueba:
+
+./Terror:
+'La dama y el bagavundo.png'  'Que paso ayer.pdf'  'We will rock you.js'  'Yo antes de ti.xls'
+
+9) Si el resultado coincide con la plantilla guía de la diapositiva anterior resolver las
+siguientes preguntas
+
+● ¿Se pueden crear las carpetas del punto 2 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+
+Si se pueden crear usando el comando 
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH
+$ mkdir Peliculas/Accion Peliculas/Comedia Peliculas/Infantiles Peliculas/Romanticas Peliculas/Terror
+
+● ¿Se pueden crear los archivos del punto 3 en un solo comando? En caso que la
+respuesta sea positiva escribir el comando
+
+Si se pueden crear usando el siguiente comando
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH
+$ touch Peliculas/Infantiles/Intenzamente.txt Peliculas/Infantiles/El juego del miedo.xls Peliculas/Infantiles/Rapido y furioso.pdf Peliculas/Infantiles/Titanic.jpg
+
+
+● Estando ubicados en la carpeta DH crear una carpeta llamada Prueba dentro de
+la carpeta Romanticas en un solo comando y escribirlo aquí.
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH
+$ mkdir Peliculas/Romanticas/Prueba
+
+● Estando ubicados en la carpeta Romanticas crear una carpeta llamada Prueba2
+dentro de la carpeta Accion
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH/Peliculas/Romanticas
+$ mkdir ../Accion/Prueba2
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+								VSCODE 
+
+2) Mover los archivos que no correspondan a la carpeta con la categoría de
+película correspondiente. 
+
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH/Peliculas
+$ mv Accion/Cars.jpg Infantiles
+$ mv Accion/"El hexorsista.xls" Terror
+$ mv Accion/"Diario de una pasion.js" Romanticas
+$ mv Comedia/"Madagaskar.js" Infantiles
+$ mv Comedia/"IT.xls" Terror
+$ mv Comedia/"Mision imposible.png" Accion
+$ mv Comedia/"Orgullo y prejuicio.txt" Romanticas
+$ mv Infantiles/"El juego del miedo.xls" Terror
+$ mv Infantiles/"Rapido y furioso.pdf" Accion
+$ mv Infantiles/"Titanic.jpg" Romanticas
+$ mv Romanticas/"Annabelle.js" Terror
+$ mv Romanticas/"La mascara.js" Comedia
+$ mv Romanticas/"Los vengadores.js" Accion
+$ mv Romanticas/"Pocahontas.jpg" Infantiles
+$ mv Terror/"La dama y el bagavundo.png" Infantiles
+$ mv Terror/"Que paso ayer.pdf" Comedia
+$ mv Terror/"Yo antes de ti.xls" Romanticas
+
+
+3) Estando ubicados en la carpeta DH renombrar los archivos que están mal
+nombrados debido a faltas ortográficas.
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH
+$ mv Peliculas/Infantiles/Intenzamente.txt Peliculas/Infantiles/Intensamente.txt
+$ mv Peliculas/Infantiles/"La dama y el bagavundo.png" Peliculas/Infantiles/"La dama y el vagabundo.png"
+$ mv Peliculas/Infantiles/"Madagaskar.js" Peliculas/Infantiles/"Madagascar.js"
+$ mv Peliculas/Terror/"El hexorsista.xls" Peliculas/Terror/"El exorsita.xls"
+
+
+4) Estando ubicados en la carpeta DH remover (eliminar) los archivos que no sean
+peliculas y corresponden a canciones en un solo comando c/u. 
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH
+$ rm Peliculas/Accion/"Smooth criminal.txt"
+$ rm Peliculas/Terror/"We will rock you.js"
+
+5) Ubicados en la carpeta DH crear el archivo noBorrar.js en la carpeta prueba2.
+En un solo comando.
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH
+$ touch Peliculas/Accion/Prueba2/noBorrar.js
+
+6) Ubicados en la carpeta peliculas mover el archivo noBorrar.js de la carpeta
+prueba2 a la carpeta prueba. En un solo comando.
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH/Peliculas
+$ mv Accion/Prueba2/noBorrar.js Romanticas/Prueba
+
+7) Ubicados en la carpeta DH crear un archivo llamado camadax.txt
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH
+$ touch camadax.txt
+
+8) Ubicados en la carpeta peliculas, mover el archivo IT a la carpeta infantiles. En
+un solo comando.
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH/Peliculas
+$ mv Terror/IT.xls Infantiles
+
+9) Ubicados en la carpeta peliculas eliminar el archivo camadax.txt
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH/Peliculas
+$ rm ../camadax.txt
+
+10) Ubicados en la carpeta peliculas eliminar la carpeta prueba. En un solo
+comando. 
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH/Peliculas
+$ rm -r Romanticas/Prueba
+
+
+******************************************************Contenido de todas las carpetas**********************************************************
+
+
+Usuario@DESKTOP-D0K9Q06 MINGW64 ~/Desktop/Certified Tech Developer/Introduccion a la informatica/Modulo 1 
+INMERCION/Interfaz de usuario - Terminal (CLI)/Clase 3/Ejercitacion/DH
+$ ls -R
+.:
+Peliculas/
+
+./Peliculas:
+Accion/  Comedia/  Infantiles/  Romanticas/  Terror/
+
+./Peliculas/Accion:
+'Los vengadores.js'  'Mision imposible.png'   Prueba2/  'Rapido y furioso.pdf'
+
+./Peliculas/Accion/Prueba2:
+
+./Peliculas/Comedia:
+'La mascara.js'  'Que paso ayer.pdf'
+
+./Peliculas/Infantiles:
+ Cars.jpg   Intensamente.txt   IT.xls  'La dama y el vagabundo.png'   Madagascar.js   Pocahontas.jpg      
+
+./Peliculas/Romanticas:
+'Diario de una pasion.js'  'Orgullo y prejuicio.txt'   Titanic.jpg  'Yo antes de ti.xls'
+
+./Peliculas/Terror:
+ Annabelle.js  'El exorsita.xls'  'El juego del miedo.xls'
+
+
+
