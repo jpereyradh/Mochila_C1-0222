@@ -1,0 +1,9 @@
+9) 1) mkdir Infantiles Accion Terror Comedia Romanticas
+9) 2) touch Intenzamente.txt "El juego del miedo.xls" "Rapido y furioso.pdf" Titanic.jpg
+9) 3) mkdir Peliculas/Romanticas/Pruebas
+9) 4) mkdir ../Accion/Prueba2
+
+
+
+
+
