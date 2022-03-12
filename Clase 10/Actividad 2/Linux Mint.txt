@@ -1,0 +1,2 @@
+Linux Mint es una distribucion de Deviant, por lo que es Open Source
+Sus requisitos minimos son 2GB de Ram y 20 GB de espacio en disco
