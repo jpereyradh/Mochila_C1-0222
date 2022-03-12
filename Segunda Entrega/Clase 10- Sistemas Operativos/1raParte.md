@@ -1,4 +1,4 @@
-![[Captura de Pantalla 2022-03-12 a la(s) 00.34.35.png]]
+![](./captura_debian.png)
 
 # Debian en línea, una asociación de personas que han hecho causa común para crear un sistema operativo libre.
 
