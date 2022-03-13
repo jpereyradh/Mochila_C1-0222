@@ -1,0 +1,32 @@
+Machete
+
+Importantes
+
+pwd (Para saber donde estoy ubicado)
+cd (Para moverme en las carpetas)
+mkdir (Para crear Carpeta)
+touch (Para crear archivos)
+
+ls (Para mostrar la lista de archivos)
+ls -a (Lista de todos los archivos y ocultos)
+ls -l (Muestra toda la informacion de un carpeta: usuario, grupo, permisos, tamaño, fecha y hora de creacion)
+ls -R (Muestra las carpetas y los archivos contenidos en ellos de manera recursiva)
+
+rm (Elimina un rchivo)
+rmdir (Elimina una carpeta vacia)
+rm -r (Elimina una carpeta y su contenido)
+
+Clear (Es pa limpiar no sea sucio)
+
+GIT
+
+git init
+
+git config user.name
+git config user.email
+
+git add (archivo)/.
+
+git commit -m 
+
+git push origin
