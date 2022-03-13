@@ -29,7 +29,7 @@ Procesos en Linux:
 
 
 ●Escribiren la terminal el comandoapt install cowsay.
-><img src = "./img/cowsay.jpg">
+><img src = "./img/cowsay.png">
 ●Escribir en la terminal el comandocowsay “ Hola mundo “.
 ><img src = "./img/cowsay_hola.png">
 
