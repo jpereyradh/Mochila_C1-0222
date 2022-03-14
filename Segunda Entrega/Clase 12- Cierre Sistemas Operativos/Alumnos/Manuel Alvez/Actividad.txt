@@ -1,0 +1,21 @@
+1- El usuario root en GNU/Linux es el usuario que tiene acceso administrativo al sistema.
+
+2-Cuando instalas ubuntu, se te pide que crees un usuario para ti. Esto se debe a que es desaconsejable ejecutar el sistema como root, ya que éste siempre tiene todos los permisos y los programas ejecutados como root pueden hacer lo que quieran, lo que supone un riesgo para la seguridad. 
+Ubuntu">ubuntu es ligeramente diferente de muchas otras distros de linux en su enfoque, porque desactiva el inicio de sesión como root al no establecer una contraseña para el mismo. En muchos sistemas Linux, cuando quieres elevar los privilegios, te conviertes en el usuario root escribiendo su - o simplemente su en una terminal. El su (cambiar de usuario) le permite entrar como otro usuario en un Shell. Debe introducir la contraseña del usuario con el que quiere iniciar la sesión, no la suya propia. En Ubuntu su falla porque root no tiene contraseña. Puede "arreglar" esto estableciendo una contraseña para root, pero se desaconseja y no es necesario ya que sudo proporciona todos los privilegios. Incluso puede ejecutar el su como root escribiendo sudo su . A continuación, escribe su propia contraseña y se convierte en root. Sin embargo, como sudo proporciona una manera de abrir un Shell root no hay necesidad de ejecutar el su con él para este fin. Puede utilizar simplemente sudo -i .
+
+Fuente: https://www.enmima
+
+3- https://www.mclibre.org/descargar/docs/revistas/solo-linux/solo-linux-13-es-202002.pdf
+
+pagina 30
+
+
+
+Investigar una contraseña para el usuario root:
+¿Cuál es la contraseña por defecto de root?
+La cuenta root está deshabilitada de forma predeterminada, lo que significa que root no tiene contraseña.
+Solo un superusuario o root puede cambiar la contraseña de cualquier cuenta de usuario. Otros usuarios solo pueden cambiar sus propias contraseñas.
+
+Las contraseñas de los usuarios se cambian en Ubuntu usando el comando passwd. En este artículo, les explicaremos cómo un usuario root puede cambiar su propia contraseña en Ubuntu.
+
+https://ubunlog.com/como-cambiar-la-contrasena-de-sudo-root-u-otro-usuario-en-ubuntu/
