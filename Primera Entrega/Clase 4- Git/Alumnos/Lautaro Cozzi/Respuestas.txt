@@ -1,0 +1,5 @@
+1) El directorio db  fue creado y agregado al commit "Primer Commit"
+2)No se guardo lo importante porque no se utilizo el comando "git add ." antes del commit
+3)No, porque el nombre del commit debe ser claro
+4)Se recupero el archivo "producto_db.js" que habia sido eliminado en el ultimo commit
+5)Se hizo un commit borrando el archivo config.js borrado en el paso 4
