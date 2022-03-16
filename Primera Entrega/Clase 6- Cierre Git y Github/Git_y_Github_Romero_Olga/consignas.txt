@@ -1,0 +1,3 @@
+¿Quién inventó el sistema de controls de versión Git y por qué? Git surge de la necesidad de registrar cambios o versiones que existen en archivos de un proyecto a lo largo del tiempo, es un sistema de control de versiones de código abierto desarrollado en 2005 por Linux Torvalds
+¿A quién pertenece actualmente Github y por qué? aunque github es un sistema de control de versiones de código abierto, fue comprado por Microsoft en el 2018 loque generó cierto malestar entre desarrolladores y empresas
+¿Hay otra forma que no sea la terminal para trabajas con Github? No, para usar github se requiere siempre el uso de la consola
