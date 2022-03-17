@@ -1,0 +1,1 @@
+estudiamos cómo funcionan los servidores, qué hacen dentro de una organización y los diferentes tipos que existen
