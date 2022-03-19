@@ -1,0 +1,8 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos OS y en otros no?
+Porque depende del intérprete o compilador que haya en el SO, el cual solo puede traducir a lenguaje de máquina determinados lenguajes de programación.
+
+¿Qué tipo de máquina virtual es Virtual Box?
+Es una MS de sistema.
+
+Una máquina virtual que se rompe ¿Afecta a las dem{as MV? ¿Por qué?
+No, porque el hipervisor mantiene a cada MV aislada.
