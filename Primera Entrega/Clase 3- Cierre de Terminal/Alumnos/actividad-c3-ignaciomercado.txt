@@ -1,0 +1,240 @@
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ pwd
+/c/Users/Valeria
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ cd desktop
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop
+$ mkdir dh
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop
+$ cd hd
+bash: cd: hd: No such file or directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop
+$ cd dh
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ mkdir peliculas
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ cd peliculas
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas
+$ mkdir infantiles accion terror comedia romanticas
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas
+$ cd infantiles
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/infantiles
+$ touch intenzamente.txt "el juego del miedo.xls" "rapido y furioso.pdf" titanic.jpg
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/infantiles
+$ cd ../accion
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/accion
+$ touch "smooth criminal.txt" "diario de una pasion.js" "el hexorcista.xls" cars.jpg
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/accion
+$ cd ../terror
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/terror
+$ touch "la dama y el bagavundo.png" "yo antes de ti.xls" "que paso ayer.pdf" "we will rock you.js"
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/terror
+$ cd ../comedia
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/comedia
+$ touch madagaskar.js "orgullo y prejuicio.txt" it.xls "mision imposible.png"
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/comedia
+$ cd ../romantica
+bash: cd: ../romantica: No such file or directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/comedia
+$ cd ../romanticas
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/romanticas
+$ touch pocahontas.jpg annabelle.js "los vengadores.js" "la mascara.js"
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/romanticas
+$ cd ../
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas
+$ ls -R
+.:
+accion/  comedia/  infantiles/  romanticas/  terror/
+
+./accion:
+ cars.jpg                  'el hexorcista.xls'
+'diario de una pasion.js'  'smooth criminal.txt'
+
+./comedia:
+ it.xls   madagaskar.js  'mision imposible.png'  'orgullo y prejuicio.txt'
+
+./infantiles:
+'el juego del miedo.xls'  'rapido y furioso.pdf'
+ intenzamente.txt          titanic.jpg
+
+./romanticas:
+ annabelle.js  'la mascara.js'  'los vengadores.js'   pocahontas.jpg
+
+./terror:
+'la dama y el bagavundo.png'  'we will rock you.js'
+'que paso ayer.pdf'           'yo antes de ti.xls'
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas
+$ cd ../
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ mkdir peliculas/romanticas/prueba
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ cd peliculas/romanticas
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/romanticas
+$ mkdir ../accion/prueba2
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/peliculas/romanticas
+$
+
+
+
+
+
+
+
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ pwd
+/c/Users/Valeria/Desktop/dh
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/accion/cars.jpg peliculas/infantiles/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/accion/"diario de una pasion.js" peliculas/romanticas/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/accion/"el exorcista.xls" peliculas/terror
+mv: cannot stat 'peliculas/accion/el exorcista.xls': No such file or directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/accion/"el hexorcista.xls" peliculas/terror/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/comedia/it.xls peliculas/terror/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/comedia/madagaskar.js peliculas/infantiles/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/comedia/"mision imposible.png" peliculas/accion/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/comedia/"orgullo y prejuicio.txt" peliculas/romanticas
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/infantiles/"el juego del miedo.xls" peliculas/terror/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/infantiles/"rapido y furioso.pdf" peliculas/accion/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/infantiles/titanic.jpg peliculas/romanticas/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/romanticas/annabelle.js peliculas/terror/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/romanticas/"la mascara.js" peliculas/comedia/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/romanticas/"los vengadores.js" peliculas/accion/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/romanticas/pocahontas.jpg peliculas/infantiles/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/terror/"la dama y el bagavundo.png" peliculas/infantiles/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/terror/"que paso ayer.pdf" peliculas/comedia/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/terror/"we will rock you.js" peliculas/romanticas/ 
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/terror/"yo antes de ti.xls" peliculas/romanticas/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ pwd
+/c/Users/Valeria/Desktop/dh
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/infantiles/intenzamente.txt peliculas/infantiles/intensamente.txt
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/infantiles/"la dama y el bagavundo.png" peliculas/infantiles/"la dama y el vagabundo.png"
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/infantiles/madagaskar.js peliculas/infantiles/madagascar.js
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ rm peliculas/accion/"smooth criminal.txt" 
+rm: cannot remove 'peliculas/accion/smooth criminal.txt': Permission denied
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ rm peliculas/accion/"smooth criminal.txt"
+rm: cannot remove 'peliculas/accion/smooth criminal.txt': Permission denied
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ rm "smooth criminal.txt"
+rm: cannot remove 'smooth criminal.txt': No such file or directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ rm peliculas/romanticas/"we will rock you.js"
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ mv peliculas/terror/"el hexorcista.xls" peliculas/terror/"el exorcista.xls"
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ rm peliculas/accion/"smooth criminal.txt" 
+rm: cannot remove 'peliculas/accion/smooth criminal.txt': Permission denied
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ touch peliculas/accion/prueba2/noborrar.js
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ cd peliculas
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh/peliculas
+$ mv accion/prueba2/noborrar.js romanticas/prueba/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh/peliculas
+$ cd ../
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ touch camadax.txt
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh
+$ cd peliculas
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh/peliculas
+$ mv terror/it.xls infantiles/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh/peliculas
+$ rm ../camadax.txt
+rm: cannot remove '../camadax.txt': Permission denied
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh/peliculas
+$ rm -r ../camadax.txt
+rm: cannot remove '../camadax.txt': Permission denied
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh/peliculas
+$ rm -r romanticas/prueba
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/Desktop/dh/peliculas
+$

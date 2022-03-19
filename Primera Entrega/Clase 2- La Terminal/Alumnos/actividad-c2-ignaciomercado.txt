@@ -1,0 +1,166 @@
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ pdw
+bash: pdw: command not found
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ pwd
+/c/Users/Valeria
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ cd desktop
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop
+$ mkdir dh
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop
+$ cd dh
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ mkdir historia_de_la_contabilidad servidores interfaces_de_usuario que_haremos_hoy infraestructura
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ cd historia_de_la_contabilidad
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/historia_de_la_contabilidad
+$ touch repaso.txt
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/historia_de_la_contabilidad
+$ ../
+bash: ../: Is a directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/historia_de_la_contabilidad
+$ ../servidores
+bash: ../servidores: Is a directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/historia_de_la_contabilidad
+$ ./servidores
+bash: ./servidores: No such file or directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/historia_de_la_contabilidad
+$ cd ../servidores
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/servidores
+$ touch repaso.txt
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/servidores
+$ cd ../interfaces_de_usuario
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/interfaces_de_usuario
+$ touch repaso.txt
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/interfaces_de_usuario
+$ cd ../que_haremos_hoy
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/que_haremos_hoy
+$ touch repaso.txt
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/que_haremos_hoy
+$ cd ../infraestructura
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/infraestructura
+$ touch repaso.txt
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/infraestructura
+$ cd ../
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ ls
+historia_de_la_contabilidad/  interfaces_de_usuario/  servidores/
+infraestructura/              que_haremos_hoy/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ mkdir repaso_clase_1y2
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ mv ^C
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ mv /c/users/valeria/desktop/dh/que_haremos_hoy /c/users/valeria/desktop/dh/repaso_clase_1y2
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ mv /c/users/valeria/desktop/dh/infraestructura /c/users/valeria/desktop/dh/repaso_clase_1y2
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ mv /c/users/valeria/desktop/dh/historia_de_la_contabilidad /c/users/valeria/desktop/dh/repaso_clase_1y2
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$  mv /c/users/valeria/desktop/dh/interfaces_de_usuario /c/users/valeria/desktop/dh/repaso_clase_1y2
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$  mv /c/users/valeria/desktop/dh/servidores /c/users/valeria/desktop/dh/repaso_clase_1y2
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ ls
+repaso_clase_1y2/
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ ls -R
+.:
+repaso_clase_1y2/
+
+./repaso_clase_1y2:
+historia_de_la_contabilidad/  interfaces_de_usuario/  servidores/
+infraestructura/              que_haremos_hoy/
+
+./repaso_clase_1y2/historia_de_la_contabilidad:
+repaso.txt
+
+./repaso_clase_1y2/infraestructura:
+repaso.txt
+
+./repaso_clase_1y2/interfaces_de_usuario:
+repaso.txt
+
+./repaso_clase_1y2/que_haremos_hoy:
+repaso.txt
+
+./repaso_clase_1y2/servidores:
+repaso.txt
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh
+$ 
+
+
+
+
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ mv /c/users/valeria/desktop/dh/historia_de_la_contabilidad /c/users/valeria/desktop/dh/repaso_clase_1y2
+mv: cannot stat '/c/users/valeria/desktop/dh/historia_de_la_contabilidad': No such file or directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ mv /c/users/valeria/desktop/dh/historia_de_la_contabilidad /c/users/valeria/desktop/dh/repaso_clase_1y2
+mv: cannot stat '/c/users/valeria/desktop/dh/historia_de_la_contabilidad': No such file or directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ mv /c/users/valeria/desktop/dh/repaso_clase_1y2/historia_de_la_contabilidad /c/users/valeria/desktop/dh/repaso_clase_1y2/historia_de_la_informatica
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ mv /c/users/valeria/desktop/dh/repaso_clase_1y2/que_haremos_hoy /c/users/valeria/desktop/dh/repaso_clase_1y2/software_y_hardware
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ mv /c/users/valeria/desktop/dh/repaso_clase_1y2/infraestructura /c/users/valeria/desktop/dh/repaso_clase_1y2/git_bash_y_vscode
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ pwd
+/c/Users/Valeria
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ cd/desktop/dh/repaso_clase_1y2/historia_de_la_informatica
+bash: cd/desktop/dh/repaso_clase_1y2/historia_de_la_informatica: No such file or directory
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~
+$ cd desktop
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop
+$ cd dh/repaso_clase_1y2
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/repaso_clase_1y2
+$ cd historia_de_la_informatica
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/repaso_clase_1y2/historia_de_la_informatica    
+$ nano repaso.txt
+
+NachoMrk2@DESKTOP-NPNKCUF MINGW64 ~/desktop/dh/repaso_clase_1y2/historia_de_la_informatica    
+$
