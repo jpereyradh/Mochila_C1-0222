@@ -1,0 +1,7 @@
+1. Solo va a poder utilizarse en algunos sistemas operativos y en otros no porque va a depender del interprete de cada SO.
+
+2. El VirtualBox es un Hypervisor de sistemas
+
+3. En caso de que se rompa una VM no afectara ninguna otra VM ya que son totalmente independientes
+
+
