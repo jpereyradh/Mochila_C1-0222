@@ -1,0 +1,2 @@
+compilador: lee toda la programación
+interprete: analiza linea por linea
