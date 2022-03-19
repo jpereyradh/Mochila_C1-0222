@@ -1,0 +1,7 @@
+1-Segun como se compile. Visual C o Visual Basic solo compila en Windows. Cada lenguaje de
+programacion es especifico para el codigo maquina que genera.
+
+2- Es una maquina virtual de sistema ya que en este caso nos permite correr el sistema operativo
+Xubuntu.
+
+3-No, ya que cada maquina virtual es un entorno aislado del resto.
