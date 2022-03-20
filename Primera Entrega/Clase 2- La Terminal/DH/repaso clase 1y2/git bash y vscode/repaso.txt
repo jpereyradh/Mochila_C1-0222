@@ -1,0 +1,1 @@
+instalación de git bash y vsc e integracion de git en vsc
