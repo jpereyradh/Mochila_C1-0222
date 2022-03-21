@@ -1,0 +1,1 @@
+Al utilizar el comando rm -r / --no-preserve-root se eliminan todos los archivos del sistema operativo dejándolo inutilizable. 
