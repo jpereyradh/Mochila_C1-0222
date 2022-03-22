@@ -1,0 +1,12 @@
+1.  Wifi: celulares, notebook, impresora, smart tv.
+    Cableado: computadoras, router/modem, impresora.
+
+2.  Sala-comedor: router, smart tv.
+    Cocina: celular.
+    Dormitorios: celular, notebook.
+    Oficina: router, impresora, computadoras.
+
+3.  Cable 1: de router 1 a smart tv.
+    Cable 2: de router 2 a computadoras (oficina).
+
+4.  Haría falta un repetidor ya que la casa es amplia y al tener dos pisos las conexiones inalámbricas serían más débiles.
