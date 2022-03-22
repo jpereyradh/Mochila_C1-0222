@@ -1,0 +1,177 @@
+﻿Estos son los pasos que se hicieron para el trabajo
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ cd Peliculas/Accion/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Accion
+$ mv Cars.jpg ../Infantiles/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Accion
+$ mv Diario\ de\ una\ pasion.js ../Romanticas/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Accion
+$ mv El\ Hexorcista.xls ../Terror/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Accion
+$ cd ../
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas  
+$ cd Comedia/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Comedia
+$ mv It.xls ../Terror/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Comedia
+$ mv Madagaskar.js ../Infantiles/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Comedia
+$ mv Mision\ imposible.png ../Accion/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Comedia
+$ cd ../
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas  
+$ cd Infantiles/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Infantiles
+$ mv El\ juego\ del\ miedo.xls ../Terror/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Infantiles
+$ mv Rapido\ y\ furioso.pdf ../Accion/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Infantiles
+$ mv Titanic.jpg ../Romanticas/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Infantiles
+$ cd ../
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas  
+$ cd Romanticas/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Romanticas
+$ mv Annabelle.js ../Terror/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Romanticas
+$ mv La\ mascara.js ../Comedia/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Romanticas
+$ mv Los\ vengadores.js ../Accion/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Romanticas
+$ mv Pocahontas.jpg ../Infantiles/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Romanticas
+$ cd ../
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas  
+$ cd Terror/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Terror
+$ mv La\ dama\ y\ el\ bagavundo.png ../Infantiles/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Terror
+$ mv Que\ paso\ ayer.pdf ../Comedia/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Terror
+$ mv Yo\ antes\ de\ ti.xls ../Romanticas/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Terror
+$ cd ../
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas  
+$ cd Comedia/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Comedia
+$ mv Orgullo\ y\ prejuicio.txt ../Romanticas/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas/Comedia
+$ cd ../../
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ mv Peliculas/Infantiles/Intenzamente.txt Peliculas/Infantiles/Intensamente.txt
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ mv Peliculas/Infantiles/La\ dama\ y\ el\ bagavundo.png Peliculas/Infantiles/La\ dama\ y\ el\ vagabundo.png
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ mv Peliculas/Infantiles/Madagaskar.js Peliculas/Infantiles/Madasgascar.js
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ mv Peliculas/Terror/El\ Hexorcista.xls Peliculas/Terror/El\ exorcista.xls
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ rm Peliculas/Accion/Smooth\ criminal.txt Peliculas/Terror/We\ will\ rock\ you.js
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ touch Peliculas/Accion/Prueba2/noBorrar.js
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ cd Peliculas/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas  
+$ mv Accion/Prueba2/noBorrar.js Romanticas/Prueba/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas  
+$ cd ../
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ touch camadax.txt
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH
+$ cd Peliculas/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas
+$ mv Terror/It.xls Infantiles/
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas
+$ rm ../../camadax.txt
+rm: cannot remove '../../camadax.txt': No such file or directory
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas
+$ rm ../camadax.txt
+
+
+coco_@DESKTOP-U97J6G8 MINGW64 ~/OneDrive/Desktop/DH/Peliculas  
+$ rm -r Romanticas/Prueba/

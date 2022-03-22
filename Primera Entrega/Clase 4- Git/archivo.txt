@@ -1,0 +1,5 @@
+1) el directorio db al no contener ningun archivo pasa de desapercibido.
+2) No se guarda porque no se hizo el Git add
+3) Esta bien el nombre.
+4) el comando git restore es para restablecer los archivos.
+5) los archivos estan comitiados para avanzar al nivel de subir al repo de rama main o de la branch. 
