@@ -1,0 +1,7 @@
+La ip es publica o privada?
+IPv4 es una IP publica, que podemos acceder desde internet.
+Ipv6 es nuestra IP privada.
+
+Qué información puedo obtener de la dirección MAC? 
+Es un identificador único que cada fabricante le asigna a la tarjeta de red de sus dispositivos conectados.
+
