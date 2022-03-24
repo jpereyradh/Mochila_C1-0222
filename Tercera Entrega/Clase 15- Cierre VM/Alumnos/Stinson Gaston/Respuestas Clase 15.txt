@@ -1,0 +1,5 @@
+1- Porque un lenguaje de programacion compila el codigo en lenguaje de maquina, y no todos los dispositivos admiten el mismo lenguaje.
+
+2- Es una maquina virtual de sistemas.
+
+3- No, ya que cada maquina es independiente de las demas.
