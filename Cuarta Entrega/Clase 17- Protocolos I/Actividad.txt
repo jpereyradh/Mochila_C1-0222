@@ -1,0 +1,6 @@
+
+IP Publica: 186.132.220.215
+IP Privada: 192.168.1.37
+Mascara de Subred: 255.255.255.0
+
+Direccion MAC: A8-7E-EA-CB-36-F3
