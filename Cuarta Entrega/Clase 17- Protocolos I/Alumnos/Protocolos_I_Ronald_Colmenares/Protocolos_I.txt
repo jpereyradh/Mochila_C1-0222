@@ -1,0 +1,7 @@
+IP publica: 192.168.100.1
+IP privada: 192.168.100.27
+Mascara de subred: 255.255.255.0
+MAC: 9C-DA-3E-5D-83-AB
+
+IP's de clase "C"
+Placa de red segun MAC: Intel Corporate
