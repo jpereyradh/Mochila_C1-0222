@@ -1,0 +1,17 @@
+1. ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+
+Un lenguaje de programación podrá usarse siempre y cuando haya un correspondiente interprete o compilador que le corresponda.
+Además, por otro lado, es factible utilizar una técnica llamada cross-compile en donde en una máquina y sistema operativo "X" puedes compilar codigo objeto (lease, binarios ejecutables) para otra máquina o sistema diferente "Y". Al decir "diferente" puede ser: diferente sistema operativo, diferente procesador y, en casos extremos hasta diferentes arquitecturas de procesador.
+
+
+---
+2. ¿Que tipo de máquina virtual es virtualBox?
+
+VirtualBox es una aplicación que sirve para hacer máquinas virtuales de sistema. 
+O sea que desde nuestro sistema operativo utilizando virtualBox podemos generar un software con otro sistema operativo en su interior.
+
+
+---
+3. Si tengo mas de una máquina virtual instalada y una se rompe, ¿esto afecta a las demás? ¿Por qué?
+
+No. Porque cada VM es independiente una de la otra.
