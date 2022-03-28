@@ -1,0 +1,12 @@
+Dirección IP Pública: 186.152.201.189
+Clase: B
+
+
+Dirección IP Privada: 192.168.0.86
+Clase: C
+
+Máscara de subred: 255.255.255.0
+
+MAC:94-DE-80-76-37-EC
+
+De macverndors podemos obtener el fabricante de nuestra motherboard
