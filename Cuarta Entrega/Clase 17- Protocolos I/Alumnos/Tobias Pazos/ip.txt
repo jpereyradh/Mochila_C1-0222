@@ -1,0 +1,5 @@
+ip publica: 186.138.18.250
+
+ip privada:
+    IPv6:
+    IPv4:
