@@ -1,0 +1,103 @@
+Zoom puertos
+
+
+80 443 8801 8802 3478 3479 8801-8810
+
+
+
+Discord 
+
+
+HTTPS
+
+TCP 443
+
+UDP 443
+
+TCP 80
+
+
+
+
+Meet
+
+Utiliza los puertos UDP y TCP 443 de salida para el tráfico web o de procesos de autenticación de usuarios.
+
+
+Whatsapp web
+
+Para poder hacer llamadas con WhatsApp, será necesario abrir los siguientes puertos:
+
+TCP: 53, 443, 5222, 5223, 5228
+UDP 53, 3478
+
+Git: Puerto 9418.
+
+MySQL: Puerto 3306.
+
+Secure Sockets Layer (SSL): Puerto 443/TCP.
+
+HTTP: Puerto 80.
+
+
+
+
+Outlook
+
+587 995 993
+
+
+
+
+Servidor VPN
+Puerto
+PPTP
+TCP 1723, Other 47
+OpenVPN
+UDP 1194
+IPSec
+UDP 500, UDP 4500
+
+
+
+
+
+
+ftp 
+
+
+Puertos
+20/TCP DATA Port
+21/TCP Control Port
+
+
+
+virtual box
+
+Acceso SSH: le decimos que a través de nuestro puerto local 2222 queremos acceder al puerto 22 de la máquina virtual. 
+Acceso HTTP: a través de nuestro puerto local 8080 accederemos al puerto 80 de la máquina virtual.
+
+
+
+TeamViewer
+Puerto 5938 TCP/UDP
+Puerto 443 TCP
+Puerto 80 TCP
+
+/*******************************************************************************/
+			NETFLIX
+TCP 1935.
+TCP 80.
+TCP 443.
+UDP 53.
+
+/*******************************************************************************/
+
+PUBG 
+
+81, 7144, 7280, 7086, 443, 7450 y 16516
+
+/*******************************************************************************/
+
+
+
