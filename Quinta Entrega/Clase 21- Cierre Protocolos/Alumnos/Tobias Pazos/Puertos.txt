@@ -1,0 +1,75 @@
+Zoom
+        
+TCP:    80, 443
+TCP:    443, 8801, 8802
+UDP:    3478, 3479, 8801 - 8810
+
+Discord
+TCP: 443
+
+Google Meet
+TCP: 443
+UDP: 443
+
+Whatsapp web
+TCP: 5222, 5223, 5228, 524
+UDP: 3478
+
+MySQL
+Puerto: 3306
+
+Git
+Puerto: 9418
+
+Secure Sockets Layer (SSL)
+TCP: 443
+
+HTTP
+TCP: 80, 8080
+
+Virtual Box
+
+VPN
+TCP: 1701
+UDP: 500, 1194, 1500, 51820
+
+Microsoft Outlook
+TCP: 443
+
+File Transfer Protocol (FTP)
+TCP: 20, 21
+
+Microsoft Word
+TCP: 23419
+
+Skype
+TCP: 443
+UDP: 3478 - 3481 / 50000 - 60000
+
+Epic Games
+Puertos: 80, 433, 443, 3478, 3479, 5060, 5062, 5222, 6250, 12000 - 65000
+
+Fifa 21
+TCP: 3659, 9565, 9570, 9000 - 9999
+UDP: 3569, 9946, 9988, 10000 - 20000, 42124
+
+Spotify
+Puertos: 443, 4070, 80
+
+Teamviewer
+TCP: 5938
+UDP: 5938
+
+Netflix
+TCP: 443
+
+Steam
+TCP: 27014 - 27050, 27015
+UDP: 27000 - 27015, 27015 - 27030, 4380, 3478, 3005, 3101
+
+Call of Duty
+TCP: 3074, 27014 - 27050
+UDP: 3074, 3075, 3076, 3077, 3078, 3079
+
+AnyDesk
+TCP: 80, 443, 6568
