@@ -16,7 +16,7 @@ En el caso de desarrollo de sistemas operativos los lenguajes de programación n
 
 Es un hipervisor tipo 2 creado por la empresa Oracle. El hipervisor es un monitor de máquina virtual similar a un emulador que crea máquinas virtuales.
 
-La diferencia con los hipervisores yipo 1 es que el tipo 1 corre directamente en el hardware del host. En cambio el tipo 2 se ejecuta en un sistema operativo convencional como si fuera un programa más.
+La diferencia con los hipervisores tipo 1 es que el tipo 1 corre directamente en el hardware del host. En cambio el tipo 2 se ejecuta en un sistema operativo convencional como si fuera un programa más.
 
 Si tengo más de una máquina virtual instalada y una se rompe, ¿esto afecta a las demás? ¿Porqué?
 
