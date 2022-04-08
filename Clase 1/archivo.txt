@@ -1,8 +1,0 @@
-<html>
-    <head><title>Home</title></head>
-
-    <body>Al fin viernes!</body>
-        <h3>Bienvenidos a la mochila. Al fin viernes! y finde largo r2 </h3>
-    </body>
-
-</html>
