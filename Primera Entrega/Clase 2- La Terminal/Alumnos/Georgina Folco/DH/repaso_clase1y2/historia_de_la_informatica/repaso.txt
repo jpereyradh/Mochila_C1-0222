@@ -1,9 +1,0 @@
-1112 a.c. => invención del ábaco => China
-1642 d.c. => Blaise Pascal crea la Pascalina (primer calculadora mecánica) => Francia
-1801 => Joseph Jacard crea las tarjetas perforadas (una forma de guardar información para que cualquiera pudiera guardar diseños de telas muy complejos => Francia
-1833 y 1842 => Charles Babbage intenta crear la primera computadora. En consecuencia, nace el primer algoritmo creado por la matemática Ada Lovelace => Gran Bretaña
-1936 => Alan Turing crea la Máquina de Turing (una computadora capaz de ejecutar programas	con la intención de poder descifrar mensajes alemanes en la Segunda Guerra Mundial => Reino Unido 
-1943 => se crea una de las primeras computadoras (ENIAC) operada por “las chicas del refrigerador” => USA
-1945 => Von Neumann diseñó la arquitectura de una computadora que estableció las pautas de cómo una computadora debería ser armada para optimizar al máximo sus recursos => Hungría 
-Generaciones de la computadora => 40’s Primera Generación / 60’s Transistor - Chip / 70’s Microchip / 80’s Windows/Apple/Linux 
-Según IBM, desde 2011 entramos en la “Era Cognitiva” donde encontramos tecnologías como las computadoras cuánticas que pueden ejecutar cálculos complejos en 200 segundos, que las computadoras tradicionales de hoy les llevaría 10.000 años
