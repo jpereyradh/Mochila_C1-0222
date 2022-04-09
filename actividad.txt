@@ -1,5 +1,0 @@
-Algunos lenguajes de programacion no pueden usarse en ciertos sistemas operativos debido al ecosistema que manejan. Por ejemplo Swift para Mac
-
-Virtual Box no es una maquina virtual, si no que es un Softwareque permite virtualizar sistemas operativos o procesos.
-
-No afecta a las demas maquinas virtuales porque son como un proceso independiente para la CPU 
