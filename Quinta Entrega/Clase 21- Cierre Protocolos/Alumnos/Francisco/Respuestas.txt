@@ -1,0 +1,101 @@
+Zoom: 
+
+TCP 80, 443.
+	
+TCP 443, 8801, 8802.
+
+UDP	3478, 3479, 8801 - 8810.
+
+Discord: 
+
+Puerto UDP aleatorio entre 50.000 y 65.535.
+
+Google Meet: 
+
+Puertos UDP y TCP 443.
+
+WhatsApp web: 
+
+TCP 5222.  
+TCP 5223.
+TCP 5228.
+TCP 5242.
+
+Git: 
+
+Puerto 9418.
+
+MySQL: 
+
+Puerto 3306.
+
+Secure Sockets Layer (SSL): 
+
+Puerto 443/TCP.
+
+HTTP: 
+
+Puerto 80.
+
+VirtualBox: 
+
+Puerto local 8080 accederemos al puerto 80 de la máquina virtual.
+
+VPN: 
+PPTP - TCP 1723, Other 47.
+
+OpenVPN - UDP 1194.
+
+IPSec - UDP 500, UDP 4500.
+
+Outlook: 
+
+Puerto 143 o 993 para IMAP, o 110 o 995 para POP.
+
+FTP: 
+
+Puertos 20 y 21.
+
+Microsoft Word: 
+
+Puerto de TCP 23419.
+
+Skype: 
+
+443/TCP.
+
+3478-3481/UDP.
+
+50000-60000/UDP.
+
+EpicGames: 
+
+Puertos 80, 433, 443, 3478, 3479, 5060, 5062, 5222, 6250, y 12000-65000.
+
+Fifa 21 (PS4): 
+
+Puertos TCP: 1935, 3478-3480, 3659, 10000-10099, 42127. UDP: 3074, 3478-3479, 3659, 6000.
+
+Spotify: 
+
+Puerto 4070.
+
+TeamViewer: 
+
+Puerto 5938 TCP/UDP.
+
+Netflix: 
+
+Protocolo TLSv1. 2.
+
+League of legends: 
+
+Puertos 5000 - 5500 UDP.
+
+Counter Strike: 
+
+Puertos TCP y UDP con el número 27015.
+
+Apex Legends: 
+
+Puertos 80, 443, 9960-9969, 1024-1124, 3216, 18000, 18120, 18060, 27900, 28910, 29900.

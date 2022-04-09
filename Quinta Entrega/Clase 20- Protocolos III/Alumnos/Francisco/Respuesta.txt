@@ -1,0 +1,11 @@
+- ¿Las ip públicas son las mismas ¿por qué 
+
+Rta. No, porque las VPN hacen que de intermediario entre nosotros y los servidores
+
+- Sin utilizar la VPN puedes ver el siguiente video Ahora activala e intenta verlo, ¿que es lo que sucedió¿Por qué
+
+Rta. Sin VPN no se puede ver porque está bloqueado para la Argentina. Con VPN se puede ver
+
+- Utilizando Tor ¿pudimos localizar la IP  
+
+Rta. No porque Tor nos brinda anonimato al usarlo ya que los servidores entran en contacto directo con el cliente.

@@ -1,0 +1,92 @@
+Respuesta, mi dirección MAC:  02-50-41-00-00-01
+
+
+Configuración IP de Windows
+
+   Nombre de host. . . . . . . . . : Comput024876
+   Sufijo DNS principal  . . . . . : sancorseguros.net
+   Tipo de nodo. . . . . . . . . . : híbrido
+   Enrutamiento IP habilitado. . . : no
+   Proxy WINS habilitado . . . . . : no
+   Lista de búsqueda de sufijos DNS: sancorseguros.net
+                                       fibertel.com.ar
+
+Adaptador de Ethernet Ethernet 2:
+
+   Sufijo DNS específico para la conexión. . :
+   Descripción . . . . . . . . . . . . . . . : PANGP Virtual Ethernet Adapter
+   Dirección física. . . . . . . . . . . . . : 02-50-41-00-00-01
+   DHCP habilitado . . . . . . . . . . . . . : no
+   Configuración automática habilitada . . . : sí
+   Dirección IPv4. . . . . . . . . . . . . . : 172.20.248.196(Preferido)
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.255
+   Puerta de enlace predeterminada . . . . . : 0.0.0.0
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 553799745
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-26-B5-D1-A2-A4-BB-6D-0B-14-C1
+   Servidores DNS. . . . . . . . . . . . . . : 172.20.6.188
+                                       172.20.6.136
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
+
+Adaptador de Ethernet Ethernet:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS específico para la conexión. . : sancorseguros.net
+   Descripción . . . . . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Dirección física. . . . . . . . . . . . . : A4-BB-6D-0B-14-C1
+   DHCP habilitado . . . . . . . . . . . . . : sí
+   Configuración automática habilitada . . . : sí
+
+Adaptador de Ethernet VirtualBox Host-Only Network:
+
+   Sufijo DNS específico para la conexión. . :
+   Descripción . . . . . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Dirección física. . . . . . . . . . . . . : 0A-00-27-00-00-0C
+   DHCP habilitado . . . . . . . . . . . . . : no
+   Configuración automática habilitada . . . : sí
+   Vínculo: dirección IPv6 local. . . : fe80::e0b6:e8a9:1d6c:aabd%12(Preferido)
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1(Preferido)
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . :
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 621412391
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-26-B5-D1-A2-A4-BB-6D-0B-14-C1
+   Servidores DNS. . . . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
+
+Adaptador de LAN inalámbrica Conexión de área local* 1:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS específico para la conexión. . :
+   Descripción . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Dirección física. . . . . . . . . . . . . : 98-AF-65-09-A8-E5
+   DHCP habilitado . . . . . . . . . . . . . : sí
+   Configuración automática habilitada . . . : sí
+
+Adaptador de LAN inalámbrica Conexión de área local* 2:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS específico para la conexión. . :
+   Descripción . . . . . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Dirección física. . . . . . . . . . . . . : 9A-AF-65-09-A8-E4
+   DHCP habilitado . . . . . . . . . . . . . : no
+   Configuración automática habilitada . . . : sí
+
+Adaptador de LAN inalámbrica Wi-Fi:
+
+   Sufijo DNS específico para la conexión. . : fibertel.com.ar
+   Descripción . . . . . . . . . . . . . . . : Intel(R) Wireless-AC 9560
+   Dirección física. . . . . . . . . . . . . : 98-AF-65-09-A8-E4
+   DHCP habilitado . . . . . . . . . . . . . : sí
+   Configuración automática habilitada . . . : sí
+   Vínculo: dirección IPv6 local. . . : fe80::79bc:7ce0:22ec:d8de%11(Preferido)
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.0.243(Preferido)
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Concesión obtenida. . . . . . . . . . . . : sábado, 9 de abril de 2022 12:25:59
+   La concesión expira . . . . . . . . . . . : sábado, 9 de abril de 2022 19:42:46
+   Puerta de enlace predeterminada . . . . . : 192.168.0.1
+   Servidor DHCP . . . . . . . . . . . . . . : 192.168.0.1
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 161001317
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-26-B5-D1-A2-A4-BB-6D-0B-14-C1
+   Servidores DNS. . . . . . . . . . . . . . : 192.168.0.1
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
