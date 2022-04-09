@@ -1,0 +1,8 @@
+● ¿Qué tipo de amenaza es? 
+es un troyano.
+● ¿Cómo comienza y cómo se propaga esta amenaza? 
+difundiendo que era un navegador Tor en sitios rusos.
+● ¿Hay más de una amenaza aplicada? 
+Es solo un troyano que trata de pasar desadvertido mientras accede a tu dispositivo con la intención de ejecutar acciones ocultas con las que abrir una puerta trasera para a través de una acción Java payload cambiar la cuenta bancaria donde enviar las criptomonedas.
+● ¿Qué solución o medida recomendarían? 
+Recomendaría desinstalar el falso navegador Tor, actualizarlo para eliminar la versión corrupta y pasar el antivirus en busca de rastros de troyanos. 
