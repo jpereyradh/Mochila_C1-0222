@@ -1,0 +1,4 @@
+1) Algunos lenguajes de programacion no pueden usarse en ciertos sistemas operativos debido al ecosistema que manejas estos mismos. Por ejemplo Swift funciona en mac.
+2) VirtualBox es una máquina virtual de sistemas.
+3) Si hay varias máquinas virtuales instaladas en un dispositivo y una se rompe esto no afectará a las demás ya que se no se encuentran conectadas de nincuna manera entre sí.
+

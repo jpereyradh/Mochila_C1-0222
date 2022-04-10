@@ -1,0 +1,18 @@
+La máquina virtual no me permite sacar captura de pantalla, pero el resultado de los comandos era igual al de la consigna.
+
+Comandos:
+
+sudo apt install tree
+mkdir muestra
+cd muestra
+mkdir subcarpeta1 subcarpeta2 subcarpeta3
+cd subcarpeta1
+touch archivo.txt
+cd ../
+cd subcarpeta2
+touch archivo.txt
+cd ../
+cd subcarpeta3
+touch archivo.txt
+cd ../
+tree
