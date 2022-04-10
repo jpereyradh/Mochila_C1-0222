@@ -1,5 +1,9 @@
-ip publica: 186.138.18.250
+IP Publica: 186.138.18.250
+Clase B
 
-ip privada:
-    IPv6:
-    IPv4:
+IP Privada: 192.168.0.93
+Clase C
+
+Mascara subred: 255.255.255.0
+
+Dirección MAC: D0-37-45-92-98-A8
