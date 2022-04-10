@@ -1,0 +1,7 @@
+Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no.
+El lenguaje no vendria siendo el problema si no La sintaxis o interprete solo esté disponible para algunos sistemas operativos y para otros no, lo cual no permite que se puedan ejecutar dichos tales sistemas.
+
+Que tipo de maquina virtual es VirtualBox
+ es un software de virtualización
+
+Si tengo mas de una maquina instalada, y una se rompe, esto afecta a las demas, por que?

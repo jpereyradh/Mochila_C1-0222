@@ -1,0 +1,28 @@
+Descripcion
+Es un derivado del sistema Ubuntu.
+Busca proporcionar "un entorno de escritorio ligero, estable y configurable con flujos de trabajo conservadores" utilizando componentes Xfce. Xubuntu está destinado a usuarios de Linux nuevos y experimentados. En lugar de apuntar explícitamente a máquinas de baja potencia, intenta proporcionar "capacidad de respuesta y velocidad adicionales" en el hardware existente.
+
+Es open source o con licencia
+Licencias de software libre
+(principalmente GPL )
+
+Cuales son los recursos de hard que tiene la MV, si no se pueden ver, buscar requisitos minimos en internet
+
+mínimos:
+
+Procesador con soporte PAE
+512MB RAM
+8 GB de espacio libre en disco
+Tarjeta gráfica 800×600 de resolución mínima
+DVD drive o puerto USB
+
+Como se accede a la ventana de comandos 
+Tecla windows + T
+
+Puedo instalar aplicaciones, y por que?
+Los programos disponibles en Xubunto son libres y de codigo abierto, si se pueden intalar y usar.
+
+Hay juegos instalados
+Si, sodoku mines sgt puzzies collection
+
+
