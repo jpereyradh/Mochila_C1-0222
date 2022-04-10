@@ -1,0 +1,22 @@
+Ejecutando el comando "ipconfig" en la terminal (en este caso la Powershell de Windows) el resultado es el siguiente:
+
+Adaptador de Ethernet Ethernet:
+
+Dirección IPv4. . . . . . . . . . . . . . : 192.168.0.11
+Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+Puerta de enlace predeterminada . . . . . : 192.168.0.1
+
+Por lo que la IP es una IP privada de clase C
+
+Al ejecutar "ipconfig /all" entre otros datos obtenemos la dirección MAC de la placa de red. 
+
+ Descripción . . . . . . . . . . . . . . . : Realtek PCIe FE Family Controller
+ Dirección física. . . . . . . . . . . . . :  Descripción . . . . . . . . . . . . . . . : Realtek PCIe FE Family Controller
+ Dirección física. . . . . . . . . . . . . : 78-AC-C0-4A-7T-13
+
+Consultando en la página macvendors.com obtenemos los datos del fabricante. En este caso Hewlett Packard.
+
+Consultando la IP pública de la PC en whatismyipaddress.com el resultado da una IP de clase B:
+
+181.112.59.32
+
