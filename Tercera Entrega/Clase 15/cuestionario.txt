@@ -1,0 +1,12 @@
+1) Debido a que cada lenguaje de programación tiene un fin en especifico, esto hace que no sea compatible con cualquier sistema operativo. En este caso dependeria del uso especifico que quisieramos darle. Cada sistema operativo tiene un lenguaje de programación especifico con el cual se relaciona mas. 
+
+Por ejemplo, en el caso de Windows seria C# (aplicaciones .NET) y en Mac hoy en dia se utiliza Swift (antes solo Objetive-C).
+
+Si bien podemos programar en C# en una Mac, no podemos programar en Swift en Windows. No todos los lenguajes aceptan todas las plataformas o estan diseñados para ellas.
+
+
+2) Virtualbox funciona sobre un hipervisor del tipo 2. Esta se caracteriza por correr en una aplicacion encima de otro sistema operativo.
+
+3) No, no afecta. Las maquinas virtuales estan "aisladas" en ese sentido de otras maquinas virtuales y lo mismo con el sistema operativo por defecto de la computadora. Si la maquina virtual se rompe solo afecta a ella misma y las demás maquinas seguiran funcionando sin problema.
+Cuando configuramos una maquina virtual debemos de asignarle un espacio del disco de la memoria principal de la maquina, cualquier cosa que hagamos en la VM se queda dentro de ese almacenamiento dado, y estos estan separados entre maquinas virtuales, por ende no afecta.
+
