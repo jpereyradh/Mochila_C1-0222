@@ -1,0 +1,1 @@
+La terminal me empezó a pedir permisos para entrar en directorios ocultos y protegidos e intentar borrarlos, al no entender que estaba pasando le di que "No" a todas las solicitudes.

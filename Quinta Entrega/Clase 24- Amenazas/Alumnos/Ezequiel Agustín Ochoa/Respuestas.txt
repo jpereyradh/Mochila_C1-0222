@@ -1,0 +1,12 @@
+● ¿Qué tipo de amenaza es?
+Un backdoor y un troyano de acceso remoto.
+
+● ¿Cómo comienza y cómo se propaga esta amenaza?
+Utiliza correos electrónicos maliciosos como mecanismo de distribución, termina teniendo ambas herramientas implementadas en su computadora, cada una de ellas capaz de controlar totalmente la máquina afectada. 
+Se distribuyeron en Croacia, Serbia, Montenegro y Bosnia y Herzegovina.
+
+● ¿Hay más de una amenaza aplicada?
+Si, son: BalkanDoor y BalkanRAT.
+
+● ¿Qué solución o medida recomendarían?
+Los usuarios que se desempeñen en áreas de negocios, así como sus superiores, deben seguir las reglas básicas de ciberseguridad: tener cuidado con los correos electrónicos y examinar tanto los archivos adjuntos como los enlaces que puedan venir en ellos; mantener actualizado sus equipos y utilizar una solución de seguridad confiable.

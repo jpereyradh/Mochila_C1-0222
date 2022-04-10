@@ -1,0 +1,8 @@
+Dirección IP Pública: 181.167.149.74
+Dirección IP Privada y su Máscara de subred: 192.168.0.138 - 255.255.255.0
+Dirección MAC:D0-37-45-07-D3-AB
+
+IP pública: Clase B
+IP privada: Clase C
+
+Info que podemos sacar de la MAC: El fabricante, TP-LINK TECHNOLOGIES CO.,LTD.

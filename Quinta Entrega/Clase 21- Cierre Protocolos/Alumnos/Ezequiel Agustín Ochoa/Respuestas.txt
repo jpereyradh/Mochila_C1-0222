@@ -1,0 +1,64 @@
+	Puertos:
+Zoom: 80, 443, 3478, 3479, 8801, 8802
+Discord: 443. Puerto UDP aleatorio entre 50.000 y 65.535
+Whatsapp:TCP: 53, 443, 5222, 5223, 5228. UDP 53, 3478
+Google Meet: 443, 19302-19309.
+MySQL: 3306
+Git: 9418
+HTTP: 80
+HTTPS: 443
+Virtual Box: A través de nuestro puerto local 8080 acederemos al puerto 80 de la MV
+VPN:
+    -OpenVPN:
+    Si nuestra VPN utiliza el protocolo OpenVPN, el puerto OpenVPN que necesitaremos tener abierto es el 1194 UDP.
+
+    -L2TP:
+    El protocolo L2TP utiliza el puerto 1701 TCP.
+
+    -IPSec / IKEv2
+    El protocolo IPSec / IKEv2 utiliza los puertos 500 y 1500 UDP.
+
+    -Wireguard
+    El protocolo Wireguard utiliza por defecto el puerto 51820 UDP.
+
+    -SSTP
+    El protocolo SSTP utiliza el puerto 443 TCP.
+
+    -PPTP
+    El protocolo PPTP utiliza el puerto 1723 TCP. Sin embargo, el protocolo PPTP está obsoleto debido a las vulnerabilidades que presenta, por lo que es recomendable mantener cerrado el puerto VPN PPTP y elegir otro protocolo en su lugar.
+
+Microsoft Outlook: 587
+FTP: 20 y el 21
+Microsoft Word: 80
+Skype: 443/TCP. 3478-3481/UDP. 50000-60000/UDP
+Epic Games: 80, 433, 443, 3478, 3479, 5060, 5062, 5222, 6250, y 12000-65000.
+FIFA 21: 3659, 9565, 9570, 9000 - 9999	3569, 9946, 9988, 10000 - 20000, 42124
+Spotify: 4070
+TeamViewer: 5938
+Netflix: 443
+Steam:
+-Para iniciar sesión en Steam y descargar contenido:
+
+    HTTP (puerto TCP remoto 80) y HTTPS (443)
+    Puerto UDP remoto 27015-27030
+    Puerto TCP remoto 27015-27030 
+
+
+-Cliente de Steam
+
+    Puertos UDP remotos 27000--27100 (tráfico de juegos)
+    Puertos UDP locales 27031-27036 (Remote Play)
+    Puerto TCP local 27036 (Remote Play)
+    Puerto UDP remoto 4380 
+
+-Servidores de escucha o dedicados
+
+    Puerto TCP local 27015 predeterminado (puerto Rcon de SRCDS)
+    Puerto UDP local 27015 predeterminado (tráfico de juegos)
+
+-Red P2P de Steamworks y chat de voz de Steam
+
+    Puerto UDP remoto 3478
+    Puerto UDP remoto 4379
+    Puerto UDP remoto 4380
+
