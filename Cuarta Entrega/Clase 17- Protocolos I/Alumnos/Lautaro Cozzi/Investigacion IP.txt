@@ -1,0 +1,10 @@
+IP Publica: 24.232.200.223
+Clase A
+
+Ip Privada: 192.168.0.234
+Mascara de subred: 255.255.255.0
+Clase C
+
+Direccion MAC
+D0-37-45-04-2E-50
+Info Obetenida: TP-LINK TECHNOLOGIES CO.,LTD.
