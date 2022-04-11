@@ -1,0 +1,5 @@
+1) Porque va a depender de como compila dicho SO, su interprete
+
+2) VirtualBox es una maquina virtual de tipo sistema.
+
+3)No afectaria a las demas porque son independientes 
