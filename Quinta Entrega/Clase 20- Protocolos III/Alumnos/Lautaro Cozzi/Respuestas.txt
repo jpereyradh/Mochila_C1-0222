@@ -1,0 +1,58 @@
+--TAREAS A REALIZAR------------------------------
+Opera:
+sin VPN:24.232.200.223
+con VPN:77.111.246.40
+Ubicacion:United States
+Latitud: 37.750999450684
+Longitud: -97.821998596191
+
+
+TOR:
+2a0b:f4c2::1
+Ubicaciion:Alemania
+Latitud: 51.2993
+Longitud: 9.491
+
+--PREGUNTAS-------------------------------------
+
+¿Las ip públicas son las mismas? ¿por qué?
+No son las mismas ya que el objetivo de estos navegadores es obtener anonimato al navegar por la red
+
+Sin utilizar la VPN puedes ver el siguiente video? Ahora activala e intenta verlo,
+¿que es lo que sucedió?¿Por qué?
+Al activar la VPN nos conectamos a una red privada situada en otro pais, por la cual logramos poder ver el video.
+
+Utilizando Tor ¿pudimos localizar la IP ?
+Localizo la ultima ip por la cual la informacion viajo desde mi PC
+
+
+--TAREAS A REALIZAR------------------------------
+SPEEDTEST
+
+OPERA
+	SIN VPN:
+		BAJADA:12.74Mbps
+		SUBIDA:20.19Mbps
+		PING:11ms
+	CON VPN
+		BAJADA:1.02Mbps
+		SUBIDA:7.72Mbps
+		PING:300ms
+
+TOR:
+	BAJADA:1.75Mbps
+	SUBIDA:1.89Mbps
+	PING:500ms
+
+--PREGUNTAS-------------------------------------
+
+¿Las velocidades en los test son diferentes? ¿Por qué crees que sucede esto?
+Las velocidades son diferentes ya que estamos conectados a diferentes ISP de alrededor del mundo
+
+¿Que significa el valor del ping?
+El ping es una unidad de medida que sirve para medir la latencia, la cual es el tiempo exacto que pasa desde que tu dispositivo hizo una solicitud al servidor y el tiempo que tardas en recibir una respuesta desde el servidor.
+
+El valor del ping, ¿varia entre las diferentes opciones? ¿Por qué?
+Varia entre los diferentes navegadores porque, en Opera con vpn va a ser mas rapido porque viaja por una red privada la cual ahi hace la peticion al servidor deseado, y en TOR la latencia va a ser mayor porque tiene que viajar por diferentes redes, saltando en varias IPs para lograr su objetivo, su anonimato.
+
+

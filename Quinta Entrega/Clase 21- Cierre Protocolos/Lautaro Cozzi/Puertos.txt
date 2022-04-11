@@ -1,0 +1,49 @@
+Puertos:
+
+Zoom: 80, 443, 3478, 3479, 8801-8810
+
+Discord: 443, 6463, 6457-6463
+
+Google Meet: 443, 3478
+
+Whastapp: TCP: 53, 443, 5222, 5223, 5228. UDP: 53, 3478
+
+MySQL: 3306
+
+Git: 9418
+
+HTTP: 80
+
+HTTPS: 443
+
+VirtualBox: 8080, 80+
+
+VPN: 1194, 1701, 500, 1500, 51820
+
+Outlook: 587
+
+FTP: 20,21
+
+Word: 23419
+
+Skype:443/TCP. 3478-3481/UDP. 50000-60000/UDP.
+
+Epic Games: 53, 80, 443, 5795, 99, 5222, 5800, 5847
+
+Fifa 21:
+UDP: 3659, 9565, 9570, 9000 – 9999
+TCP: 3569, 9946, 9988, 10000 – 20000, 42124
+
+Spotify: 443, 4070, 80
+
+TeamViewer: 5938
+
+Netflix: 443
+
+-3 agregados:
+
+Twitter: 443
+
+Anydesk: 7070, 80, 443, 6568
+
+Gmail: 465, 25, 587
