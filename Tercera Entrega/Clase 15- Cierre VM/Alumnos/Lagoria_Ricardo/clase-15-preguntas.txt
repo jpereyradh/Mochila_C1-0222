@@ -1,0 +1,13 @@
+¿Porqué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+
+Las diferencias más grandes se dan en los SO para móviles. Donde Android y iOS por ej. desarrollan sus aplicaciones en sus propias plataformas. Android desarrolla en lenguaje JAVA o Kotlin, usa su propio IDE Android Studio y publica las apps en la Play Store. 
+
+iOS desarrolla sus apps en lenguaje Swift u Objective-C, utiliza Xcode como IDE y publica sus apps en Apple's app store.
+
+En el desarrollo web existen lenguajes de programación multiplataforma o cross-platform como C, Java o Python. Igualmente cada OS tiene sus requisitos y las VM facilitan el desarrollo de apps en diferentes SO.
+
+También existen frameworks multiplataforma que permiten desarrollar para varios SO sin preocuparse en qué lenguaje se está programando.
+
+El paradigma de programación que más se asemeje al problema a resolver ayudará a decidir si hace falta un lenguaje de dominio específico o un lenguaje de propósito general.
+
+En el caso de desarrollo de sistemas operativos los lenguajes de programación no son muchos, por ej. C y el lenguaje de ensamblador.

@@ -1,0 +1,27 @@
+Script started on 2022-03-06 15:03:11-03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2[00m$ mkdir repaso-[K_clase1y2
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2[00m$ cd repaso_clase1y2/
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/repaso_clase1y2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/repaso_clase1y2[00m$ mkdir "jis[K[K[Khistoria_de_la:[K_comt[K[Kntabi lidad" Que[K[K[K"Que_haremos_hoy" Servidores "interfaces d[K[K_de:[K_usuario[1Pinterfaces_de_usuario[1P[1P[C[1P[1@q[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistoria_de_la_contabili[1P[A]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/repaso_clase1y2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/repaso_clase1y2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ingra[K[K[Kdr[K[Kfraesc[Ktructura
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/repaso_clase1y2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/repaso_clase1y2[00m$ ls
+[0m[01;34mhistoria_de_la_contabilidad[0m  [01;34minterfaces_de_usuario[0m  [01;34mservidores[0m
+[01;34minfraestructura[0m              [01;34mque_haremos_hoy[0m
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/repaso_clase1y2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/repaso_clase1y2[00m$ touh[Kch historia_de_la_contabilidad/repaso.txt que_haremos_hoy/repaso.jpg servidores/repaso.js interfaces_de_usuario/repaso.tm[K[Khm[Ktml ing[Kfraestructura/repaso.gif
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/repaso_clase1y2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/repaso_clase1y2[00m$ tree
+[01;34m.[00m
+├── [01;34mhistoria_de_la_contabilidad[00m
+│   └── repaso.txt
+├── [01;34minfraestructura[00m
+│   └── [01;35mrepaso.gif[00m
+├── [01;34minterfaces_de_usuario[00m
+│   └── repaso.html
+├── [01;34mque_haremos_hoy[00m
+│   └── [01;35mrepaso.jpg[00m
+└── [01;34mservidores[00m
+    └── repaso.js
+
+5 directories, 5 files
+]0;ric@ricnb: ~/Desktop/DH/II/Clase 2/repaso_clase1y2[01;32mric@ricnb[00m:[01;34m~/Desktop/DH/II/Clase 2/repaso_clase1y2[00m$ exit
+exit
+
+Script done on 2022-03-06 15:06:40-03:00 [COMMAND_EXIT_CODE="0"]
