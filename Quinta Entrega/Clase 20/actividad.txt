@@ -1,0 +1,57 @@
+Chequeando IP Pública:
+
+Mi IP publica es 190.48.202.98
+
+Opera con VPN:
+	
+	IP: 77.111.246.40
+	Geolocalización: United States
+			 Latitud: 37.750999450684
+			 Longitud: -97.821998596191
+			 IPS: Opera Mini Proxy
+
+Tor: 
+	IP: 94.102.56.9
+	Geolocalización: Anonymous Proxy
+			 Latitud: 0
+			 Longitud: 0
+			 ISP: Foundation for Applied Privacy
+
+Preguntas:
+
+1) No, las IP publicas no son las mismas debido a que tanto la VPN de opera y el navegador Tor mantienen la conexion más segura y en privado. Esto se ve claramente afectado cuando vemos que la IP publica es distinta, lo que significa que los navegadores estan cumpliendo con su cometido.
+
+2) El video esta bloqueado para cualquier persona que intente verlo desde argentina. Al activar la VPN no solo estamos protegiendo nuestra información sino que además afecta en la geolocalización. Es por eso que al activarla podemos verlo sin problemas.
+
+3) No, no pudimos localizar la IP, en la página la localización figuraba en anonimato.
+
+
+
+
+Prueba de Velocidad:
+
+Opera SIN VPN:
+	PING: 5ms
+	DESCARGA: 78.61Mbps
+	SUBIDA: 92.56Mbps
+
+Opera CON VPN:
+	PING: 333ms
+	DESCARGA: 1.03Mbps
+	SUBIDA: 10.03Mbps
+
+Tor:
+	PING: 600ms
+	DESCARGA: 2.89Mbps
+	SUBIDA: 2.88Mbps
+
+
+1) Si son diferentes, esto sucede a que cuando activamos la VPN o cuando usamos Tor, nuestros paquetes de datos no viajan del mismo modo que lo harian
+si estuviermos usando un navegador común sin VPN.
+
+2) El valor del ping es lo que tardan los paquetes de ir de un dispositivo a otro, en este caso de la computadora al servidor de speedtest.
+
+3) Si, varía porque en las tres opciones nuestra informacion viaja de forma distinta. Al viajar por una VPN esto hace que dependiendo de en donde se
+encuentre el servidor ocaciona que se altere la velocidad, en este caso se puede ver que la caida de la velocidad muy grande. Por otro lado, en Tor, los 
+datos son enviados a diversos dispositivos en distintos lugares alrededor del mundo que conforman la red Tor, esto hace que se vea alterada su velocidad
+y la disminuye debido a que tuvo que ser enviada a varios lugares antes de que se presente en nuestro dispositivo.
