@@ -1,0 +1,69 @@
+En Opera (o cualquier browser sin VPN) debemos consultar nuestra direccion IP
+publica y anotar
+
+Tu dirección IP es 181.93.25.134
+Proveedor de internet personal
+pais argentina
+proxy no
+
+En Opera con VPN activada debemos consular nuestra ip y consultar su
+geolocalización (podemos hacerlo desde la pagina cual es mi IP) y anotar. 
+
+Tu dirección IP es 77.111.246.40
+proveedor de internet opera mini proxy
+pais united states
+proxy no
+
+Con Tor y su red activada, debemos consultar nuestra ip y consultar la
+localización de la misma. 
+
+Tu dirección IP es 192.42.116.13 
+proveedor de internet surf b.v.
+pais anonymous proxy 
+proxy no
+
+¿Las ip públicas son las mismas? ¿por qué?
+
+Las ip publicas son distintas, porque tanto usando VPN como la red TOR se protege la privacidad del usuario encriptando la comunicacion ocultando la IP de nuestro proveedor, añadiendo una capa extra de seguridad
+
+Sin utilizar la VPN puedes ver el siguiente video? Ahora activala e intenta verlo,
+¿que es lo que sucedió?¿Por qué?
+
+utilizando VPN pudimos ver el video de youtube, sin VPN no podemos verlo ya que esta limitado al pais en el que se transmitio
+
+Utilizando Tor ¿pudimos localizar la IP ? 
+
+No, no pudimos geolocalizar la IP, ya que TOR brinda total anonimato
+
+En Opera sin VPN debemos consultar nuestra velocidad de subida, bajada y el
+ping, anotar estos valores.
+
+ping 14 ms
+descarga 4.46 mbps
+subida 0.43 0mbps
+
+En Opera con VPN activada debemos consular nuestra velocidad de subida,
+bajada y el ping, anotando estos valores. 
+
+ping 373 ms
+descarga 0.98 mbps
+subida 0.00 mbps
+
+Con Tor y su red activada, debemos consultar nuestra velocidad de subida,
+bajada y el ping, anotando estos valores.
+
+ping 600 ms
+download 2.10 mbps
+upload 0.00 mbps
+
+¿Las velocidades en los test son diferentes? ¿Por qué crees que sucede esto?
+
+en el caso de tor, es mucho mas lenta
+
+¿Que significa el valor del ping?
+
+el ping es la medida que se ocupa para medir la latencia y es expresado en milisegundos
+
+El valor del ping, ¿varia entre las diferentes opciones? ¿Por qué?
+
+en el caso de opera con vpn es mas lento
